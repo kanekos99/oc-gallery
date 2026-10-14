@@ -1,0 +1,294 @@
+.accordion-default {
+  --accordion-button: #2b7379;
+  --accordion-text: white;
+  --accordion-body-background: #d6eef3;
+  --accordion-body-text: #2b7379;
+  --accordion-desc-border-colour: #67a9a981;
+  --accordion-heading-colour: #67a9a9;
+}
+
+.accordion-lavender {
+  --accordion-button: #7b7da4;
+  --accordion-text: white;
+  --accordion-body-background: #efecf4;
+  --accordion-body-text: #4a4e6f;
+  --accordion-desc-border-colour: #a3a5cf89;
+  --accordion-heading-colour: #a3a5cfcf;
+}
+
+.accordion-orange {
+  --accordion-button: #c28262;
+  --accordion-text: white;
+  --accordion-body-background: #fff0e4;
+  --accordion-body-text: #69474a;
+  --accordion-desc-border-colour: #df9c7a7e;
+  --accordion-heading-colour: #df9c7acd;
+}
+
+.container {
+  max-width: 1400px;
+}
+
+.sidebar {
+  width: 25%;
+  position: fixed;
+  top: 60px;
+}
+
+.chara-gallery-container {
+  width: 65%;
+  margin-left: auto;
+  margin-right: 5%;
+}
+
+.sidebar-img {
+  display: block;
+  height: 250px;
+  margin: auto;
+  margin-bottom: 30px;
+  filter: drop-shadow(0 0 0.5rem rgb(148, 154, 157));
+}
+
+.about-box {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px 20px 20px 20px;
+  box-shadow: 2px 2px #67a9a9;
+  line-height: 1.2;
+  text-align: justify;
+  position: relative;
+}
+
+.about-box img {
+  position: absolute;
+  top: -25px;
+  right: 0px;
+  width: 200px;
+}
+
+.about-box p {
+  margin: 0px;
+}
+
+.sidebar-btn {
+  border-radius: 10px;
+  padding: 5px 20px 5px 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+  background-color: rgba(237, 208, 159, 1);
+  color: rgb(127, 101, 68);
+  box-shadow: 2px 2px rgb(173, 139, 95);
+  transition: ease-in-out 0.2s;
+}
+
+.sidebar-btn:hover {
+  background-color: rgb(202, 171, 119);
+  box-shadow: 2px 2px rgb(173, 139, 95);
+  box-shadow: 2px 2px rgb(148, 117, 77);
+}
+
+.accordion {
+  padding: 0 !important;
+}
+
+.accordion-item {
+  border: none;
+  background-color: transparent;
+}
+
+.accordion-header {
+  background-color: transparent;
+}
+
+.accordion-body {
+  background-color: var(--accordion-body-background);
+  padding: 1rem 1rem 1.2rem 1rem;
+  border-radius: 0px 0px 10px 10px;
+  color: var(--accordion-body-text);
+  margin-bottom: 1rem;
+}
+
+.accordion-button {
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  align-content: center;
+  background-color: var(--accordion-button) !important;
+  color: var(--accordion-text) !important;
+  border-radius: 10px !important;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  border-radius: 10px 10px 0px 0px !important;
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform 0.2s ease-in-out;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3E%3Crect x='7' y='2' width='3' height='12'/%3E%3Crect x='2' y='7' width='12' height='3'/%3E%3C/svg%3E");
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3E%3Crect x='2' y='7' width='12' height='3'/%3E%3C/svg%3E");
+}
+
+.chara-gallery-desc {
+  background-color: white;
+  border-radius: 10px;
+  border: 3px dotted var(--accordion-desc-border-colour);
+  padding: 10px 20px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chara-gallery-desc h3 {
+  background-color: var(--accordion-heading-colour);
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 900;
+  padding: 3px 30px;
+  margin-bottom: 0px;
+  margin-right: 50px;
+}
+
+.chara-gallery-desc p {
+  margin: 0px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.chara-gallery-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.chara-box {
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 10px;
+  border: rgba(128, 128, 128, 0.3) 3px solid;
+  padding: 10px 10px 5px 10px;
+  text-decoration: none !important;
+}
+
+.chara-box:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.2s;
+  border: rgba(128, 128, 128, 0.8) 3px solid;
+}
+
+.chara-img-thumbnail {
+  display: block;
+  margin: 2px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  border-radius: 5px;
+  overflow: hidden;
+  border: rgba(128, 128, 128, 0.3) 3px solid;
+}
+
+.chara-img-thumbnail img {
+  object-fit: cover;
+  object-position: 50% 25%;
+  height: 100%;
+  width: 100%;
+  border-radius: 0px;
+}
+
+.chara-name {
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: var(--accordion-body-text);
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  opacity: 0.8;
+}
+
+/*---------------------------- responsiveness -----------------------------*/
+
+@media only screen and (max-width: 1200px) {
+  .sidebar {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    max-width: 600px;
+  }
+
+  .container-row {
+    justify-content: center;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: static;
+  }
+
+  .chara-gallery-container {
+    width: 100%;
+    margin: 0px;
+    padding-top: 0px !important;
+    margin-top: 20px;
+  }
+
+  .about-box {
+    width: 90%;
+  }
+
+  .chara-gallery-row {
+    gap: 5px;
+  }
+
+  .chara-gallery-desc {
+    display: block;
+    padding: 10px 10px 15px 10px;
+  }
+
+  .chara-gallery-desc h3 {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 50%;
+  }
+
+  .chara-gallery-desc p {
+    display: block;
+    font-size: 1rem;
+    line-height: 1.1;
+  }
+
+  .accordion-button {
+    font-size: 1.3rem;
+  }
+
+  .accordion-body {
+    padding: 10px 10px 15px 10px;
+  }
+}
