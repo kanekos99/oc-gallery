@@ -93,7 +93,6 @@
   padding: 0px;
   box-shadow: 2px 2px var(--box-shadow-color);
   line-height: 1.2;
-  border: 3px solid white;
 }
 
 .about-list {
@@ -105,7 +104,7 @@
 }
 
 .about-item {
-  background-color: var(--background-color);
+  background-color: white;
   padding: 7px 10px;
   font-size: 0.9rem;
   display: flex;
@@ -119,7 +118,7 @@
 }
 
 .about-item:nth-child(even) {
-  background-color: white;
+  background-color: var(--background-color);
 }
 
 .about-item:last-child {
