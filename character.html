@@ -13,6 +13,7 @@
     />
 
     <link rel="stylesheet" type="text/css" href="styles/common.css" />
+    <link rel="stylesheet" type="text/css" href="styles/modal.css" />
     <link rel="stylesheet" type="text/css" href="styles/character.css" />
 
     <script
@@ -28,12 +29,6 @@
   </head>
   <body>
     <div class="main-body" id="main-body">
-      <!-- <div class="back-header">
-        <a href="./index.html" class="sidebar-btn mt-2">
-          <i class="fa fa-arrow-circle-left me-2" aria-hidden="true"></i>
-          back
-        </a>
-      </div> -->
       <div class="container orange-page">
         <div class="pt-3 character-container-row">
           <div class="sidebar">
@@ -74,63 +69,715 @@
               </ul>
             </div>
           </div>
-          <div class="chara-info-container pb-4">
+          <div class="chara-info-container">
             <div class="chara-info-top-bar">
-              <span class="character-label"
+              <span class="character-label orange-page"
                 ><label>Series</label>A Dance of Autumn Leaves</span
               >
-              <!-- <div class="nav-info-buttons">
-                <button>profile</button>
-                <button>gallery</button>
-                <button>story</button>
-              </div> -->
+              <div class="nav-info-buttons">
+                <a href="#" id="profile-nav-button" class="active">profile</a>
+                <a href="#gallery" id="gallery-nav-button">gallery</a>
+                <a href="#story" id="story-nav-button">story</a>
+              </div>
             </div>
-            <div class="character-body-container intro-container">
-              <h2 class="character-heading">introduction</h2>
-              <p>
-                A nine-tailed fox spirit who serves as an advisor in the current
-                Dragon Emperor's court, although his relationship with the
-                emperor seems to be much closer than he lets on. His youthful
-                appearance and penchant for mischief belies his true age and
-                wisdom.<br /><br />
-                Often serving as the voice of reason for the newly instated
-                emperor, Qiu Ye holds a highly respected position within the
-                court. Yet rumors of his tumultuous past, coupled with
-                longstanding prejudice against his kind, sully his reputation.
-                <br /><br />
-                While his abilities and loyalty are indisputable, many deem him
-                to be undeserving of being a close aide to the emperor. Qiu Ye
-                himself pays no heed to such dissent. After all, even if the
-                emperor should find his presence to be undesirable one day, he
-                would be content to simply retire to the countryside and become
-                a fisherman.
-              </p>
+            <div
+              class="chara-profile-container section-container pb-4"
+              id="profile-container"
+            >
+              <div class="character-body-container intro-container">
+                <div class="accordion" id="introduction-accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button accordion-button-orange"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#introduction-box"
+                        aria-expanded="true"
+                        aria-controls="introduction-box"
+                      >
+                        introduction
+                      </button>
+                    </h2>
+                    <div
+                      id="introduction-box"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          A nine-tailed fox spirit who serves as an advisor in
+                          the current Dragon Emperor's court, although his
+                          relationship with the emperor seems to be much closer
+                          than he lets on. His youthful appearance and penchant
+                          for mischief belies his true age and wisdom.<br /><br />
+                          Often serving as the voice of reason for the newly
+                          instated emperor, Qiu Ye holds a highly respected
+                          position within the court. Yet rumors of his
+                          tumultuous past, coupled with longstanding prejudice
+                          against his kind, sully his reputation.
+                          <br /><br />
+                          While his abilities and loyalty are indisputable, many
+                          deem him to be undeserving of being a close aide to
+                          the emperor. Qiu Ye himself pays no heed to such
+                          dissent. After all, even if the emperor should find
+                          his presence to be undesirable one day, he would be
+                          content to simply retire to the countryside and become
+                          a fisherman.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="character-body-container">
+                <div class="accordion" id="gallery-accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button accordion-button-orange"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#gallery-box"
+                        aria-expanded="true"
+                        aria-controls="gallery-box"
+                      >
+                        gallery
+                      </button>
+                    </h2>
+                    <div
+                      id="gallery-box"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                        <div class="character-body-row gallery-row">
+                          <div class="chara-gallery-img-thumbnail">
+                            <img
+                              src="https://kanekos99.github.io/gallery/assets/artwork/character_designs/references/fox4.png"
+                              loading="lazy"
+                              onclick="showImage(this)"
+                              data-bs-toggle="modal"
+                              data-bs-target="#galleryModal"
+                            />
+                          </div>
+                          <div class="chara-gallery-img-thumbnail">
+                            <img
+                              src="https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/qiu_ye_card.png"
+                              loading="lazy"
+                              onclick="showImage(this)"
+                              data-bs-toggle="modal"
+                              data-bs-target="#galleryModal"
+                            />
+                          </div>
+                          <div class="chara-gallery-img-thumbnail">
+                            <img
+                              src="https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/smile.png"
+                              loading="lazy"
+                              onclick="showImage(this)"
+                              data-bs-toggle="modal"
+                              data-bs-target="#galleryModal"
+                            />
+                          </div>
+                          <div class="chara-gallery-img-thumbnail">
+                            <img
+                              src="https://kanekos99.github.io/gallery/assets/artwork/original/chibis/design_1.png"
+                              loading="lazy"
+                              onclick="showImage(this)"
+                              data-bs-toggle="modal"
+                              data-bs-target="#galleryModal"
+                            />
+                          </div>
+                        </div>
+                        <div class="gallery-button-row">
+                          <a href="#gallery" class="gallery-btn mt-2">
+                            view full gallery
+                            <i
+                              class="fa fa-arrow-circle-right ms-2"
+                              aria-hidden="true"
+                            ></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="character-body-container">
+                <div class="accordion" id="trivia-accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button accordion-button-orange"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#trivia-box"
+                        aria-expanded="true"
+                        aria-controls="trivia-box"
+                      >
+                        trivia
+                      </button>
+                    </h2>
+                    <div
+                      id="trivia-box"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                        <ul class="trivia-list">
+                          <li>
+                            He likes tofu and all tofu-related food. His
+                            favourite is spicy mapo tofu.
+                          </li>
+                          <li>
+                            He has nine tails, but doesn't always show all of
+                            them since they take up too much space.
+                          </li>
+                          <li>
+                            He wields an infamous weapon known as the cursed
+                            cinnabar blade, which is said to inflict madness
+                            upon anyone who tries to draw it out of its sheath
+                            other than its rightful owner. It also traps the
+                            soul of anyone killed by it. Qiu Ye claims to have
+                            acquired the weapon by fishing it out a pond.
+                          </li>
+                        </ul>
+                        <hr class="dotted-divider" />
+                        <div class="trivia-row">
+                          <div class="preferences-box">
+                            <h2 class="character-heading likes-heading">
+                              likes
+                            </h2>
+                            <ul class="fa-ul preferences-list">
+                              <li>
+                                <span class="fa-li"
+                                  ><i class="fa fa-check"></i></span
+                                >Any kind of tofu dish
+                              </li>
+                              <li>
+                                <span class="fa-li"
+                                  ><i class="fa fa-check"></i></span
+                                >Fishing
+                              </li>
+                              <li>
+                                <span class="fa-li"
+                                  ><i class="fa fa-check"></i></span
+                                >Lazing around
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="preferences-box">
+                            <h2 class="character-heading dislikes-heading">
+                              dislikes
+                            </h2>
+                            <ul class="fa-ul preferences-list">
+                              <li>
+                                <span class="fa-li"
+                                  ><i class="fa fa-times"></i></span
+                                >Formalities
+                              </li>
+                              <li>
+                                <span class="fa-li"
+                                  ><i class="fa fa-times"></i></span
+                                >Rules and regulations
+                              </li>
+                              <li>
+                                <span class="fa-li"
+                                  ><i class="fa fa-times"></i></span
+                                >Getting his tails dirty
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="character-body-container">
+                <div class="accordion" id="relationship-accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button accordion-button-orange"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#relationship-box"
+                        aria-expanded="true"
+                        aria-controls="relationship-box"
+                      >
+                        relationships
+                      </button>
+                    </h2>
+                    <div
+                      id="relationship-box"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                        <div class="relationship-row">
+                          <a href="" class="relationship-img-thumbnail">
+                            <img src="assets/Jianqing.png" />
+                          </a>
+                          <div class="relationship-info">
+                            <div class="relationship-summary">
+                              <h3>Jianqing</h3>
+                              <span><label>Status:</label>Husband/ Lover</span>
+                            </div>
+                            <div class="relationship-text">
+                              <p>
+                                To Qiu Ye, Jianqing is a dragon that he once
+                                fished out of the river, who was unfortunately
+                                inedible. Or perhaps it was fortunate, for
+                                Jianqing later turned out to be the Dragon
+                                Emperor.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <hr class="dotted-divider" />
+                        <div class="relationship-row">
+                          <a href="" class="relationship-img-thumbnail">
+                            <img src="assets/Yuzhen.png" />
+                          </a>
+                          <div class="relationship-info">
+                            <div class="relationship-summary">
+                              <h3>Yuzhen</h3>
+                              <span><label>Status:</label>Close Friend</span>
+                            </div>
+                            <div class="relationship-text">
+                              <p>
+                                Qiu Ye finds Yuzhen way too fun to tease,
+                                especially about his extremely obvious crush on
+                                Jianqing. Technically that should make them love
+                                rivals, but Qiu Ye isn't the type to squander a
+                                friendship over something that petty.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="character-body-container">
+                <div class="accordion" id="featured-accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button accordion-button-orange"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#featured-box"
+                        aria-expanded="true"
+                        aria-controls="featured-box"
+                      >
+                        appears in
+                      </button>
+                    </h2>
+                    <div
+                      id="featured-box"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                        <div class="character-body-row">
+                          <a
+                            href="https://kanekos99.itch.io/fleeting-dream"
+                            class="chara-body-row-item"
+                            target="_blank"
+                          >
+                            <span>game</span>
+                            <div class="featured-image-thumbnail">
+                              <img src="assets/fleeting_dream.png" />
+                            </div>
+                            <div class="chara-row-item-title">
+                              <h2>Fleeting Dream</h2>
+                            </div>
+                          </a>
+                          <a
+                            href="https://kanekos.neocities.org/dressup/"
+                            class="chara-body-row-item"
+                            target="_blank"
+                          >
+                            <span>game</span>
+                            <div class="featured-image-thumbnail">
+                              <img src="assets/dress_up.png" />
+                            </div>
+                            <div class="chara-row-item-title">
+                              <h2>Fox Spirit Dress Up</h2>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="character-body-container">
+                <div class="accordion" id="au-accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button accordion-button-orange"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#au-box"
+                        aria-expanded="true"
+                        aria-controls="au-box"
+                      >
+                        alternate versions
+                      </button>
+                    </h2>
+                    <div
+                      id="au-box"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                        <div class="character-body-row">
+                          <a
+                            href=""
+                            class="chara-body-row-item au-item"
+                            target="_blank"
+                          >
+                            <div class="alternate-image-thumbnail">
+                              <img src="assets/qiu-ye-modern.png" />
+                            </div>
+                            <div class="chara-row-item-title">
+                              <h2>Modern Au</h2>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="character-body-container">
-              <h2 class="character-heading">trivia</h2>
-              <ul class="trivia-list">
-                <li>
-                  He likes tofu and all tofu-related food. His favourite is
-                  spicy mapo tofu.
-                </li>
-                <li>
-                  He has nine tails, but doesn't always show all of them since
-                  they take up too much space.
-                </li>
-                <li>
-                  He wields an infamous weapon known as the cursed cinnabar
-                  blade, which is said to inflict madness upon anyone who tries
-                  to draw it out of its sheath other than its rightful owner. It
-                  also traps the soul of anyone killed by it. Qiu Ye claims to
-                  have acquired the weapon by fishing it out a pond.
-                </li>
-              </ul>
+            <div
+              class="chara-gallery-container section-container pb-4"
+              id="gallery-container"
+              style="display: none"
+            >
+              <div class="character-body-container">
+                <div class="accordion" id="references-accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button accordion-button-orange"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#references-box"
+                        aria-expanded="true"
+                        aria-controls="references-box"
+                      >
+                        references
+                      </button>
+                    </h2>
+                    <div
+                      id="references-box"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                        <div class="character-body-row gallery-row">
+                          <div class="chara-gallery-img-thumbnail">
+                            <img
+                              src="https://kanekos99.github.io/gallery/assets/artwork/character_designs/references/fox4.png"
+                              loading="lazy"
+                              onclick="showImage(this)"
+                              data-bs-toggle="modal"
+                              data-bs-target="#galleryModal"
+                            />
+                          </div>
+                          <div class="chara-gallery-img-thumbnail">
+                            <img
+                              src="https://f2.toyhou.se/file/f2-toyhou-se/images/83667588_MlzzJffRveFZ8dn.png"
+                              loading="lazy"
+                              onclick="showImage(this)"
+                              data-bs-toggle="modal"
+                              data-bs-target="#galleryModal"
+                            />
+                          </div>
+                          <div class="chara-gallery-img-thumbnail">
+                            <img
+                              src="https://f2.toyhou.se/file/f2-toyhou-se/images/50957894_KBzYe51ERDiMr5A.png"
+                              loading="lazy"
+                              onclick="showImage(this)"
+                              data-bs-toggle="modal"
+                              data-bs-target="#galleryModal"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="character-body-container">
+                <div class="accordion" id="art-accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button accordion-button-orange"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#art-box"
+                        aria-expanded="true"
+                        aria-controls="art-box"
+                      >
+                        other art
+                      </button>
+                    </h2>
+                    <div
+                      id="art-box"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                        <div class="character-body-row gallery-row">
+                          <div class="chara-gallery-img-thumbnail">
+                            <img
+                              src="https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/qiu_ye_card.png"
+                              loading="lazy"
+                              onclick="showImage(this)"
+                              data-bs-toggle="modal"
+                              data-bs-target="#galleryModal"
+                            />
+                          </div>
+                          <div class="chara-gallery-img-thumbnail">
+                            <img
+                              src="https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/smile.png"
+                              loading="lazy"
+                              onclick="showImage(this)"
+                              data-bs-toggle="modal"
+                              data-bs-target="#galleryModal"
+                            />
+                          </div>
+                          <div class="chara-gallery-img-thumbnail">
+                            <img
+                              src="https://kanekos99.github.io/gallery/assets/artwork/original/chibis/design_1.png"
+                              loading="lazy"
+                              onclick="showImage(this)"
+                              data-bs-toggle="modal"
+                              data-bs-target="#galleryModal"
+                            />
+                          </div>
+                          <div class="chara-gallery-img-thumbnail">
+                            <img
+                              src="https://f2.toyhou.se/file/f2-toyhou-se/images/67201024_QGwxxTABtuac4u8.png"
+                              loading="lazy"
+                              onclick="showImage(this)"
+                              data-bs-toggle="modal"
+                              data-bs-target="#galleryModal"
+                            />
+                          </div>
+                          <div class="chara-gallery-img-thumbnail">
+                            <img
+                              src="https://f2.toyhou.se/file/f2-toyhou-se/images/95812248_0MAKK6KLWZxYdtU.png"
+                              loading="lazy"
+                              onclick="showImage(this)"
+                              data-bs-toggle="modal"
+                              data-bs-target="#galleryModal"
+                            />
+                          </div>
+                          <div class="chara-gallery-img-thumbnail">
+                            <img
+                              src="https://f2.toyhou.se/file/f2-toyhou-se/images/87245632_1BGOp6SjaNKA8dc.png"
+                              loading="lazy"
+                              onclick="showImage(this)"
+                              data-bs-toggle="modal"
+                              data-bs-target="#galleryModal"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="character-body-container">
+                <div class="accordion" id="gift-art-accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button accordion-button-orange"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#gift-art-box"
+                        aria-expanded="true"
+                        aria-controls="gift-art-box"
+                      >
+                        gift art and commissions
+                      </button>
+                    </h2>
+                    <div
+                      id="gift-art-box"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                        <div class="character-body-row gallery-row">
+                          <div class="chara-gallery-img-thumbnail">
+                            <img
+                              src="https://f2.toyhou.se/file/f2-toyhou-se/images/110174344_UarvpXjmlJN6r9V.png"
+                              loading="lazy"
+                              onclick="showImage(this)"
+                              data-bs-toggle="modal"
+                              data-bs-target="#galleryModal"
+                            />
+                          </div>
+                          <div class="chara-gallery-img-thumbnail">
+                            <img
+                              src="https://f2.toyhou.se/file/f2-toyhou-se/images/86442134_K5m3u69eqZ7rpD5.png"
+                              loading="lazy"
+                              onclick="showImage(this)"
+                              data-bs-toggle="modal"
+                              data-bs-target="#galleryModal"
+                            />
+                          </div>
+                          <div class="chara-gallery-img-thumbnail">
+                            <img
+                              src="https://f2.toyhou.se/file/f2-toyhou-se/images/86441680_YVjfiLguirhwNNe.png"
+                              loading="lazy"
+                              onclick="showImage(this)"
+                              data-bs-toggle="modal"
+                              data-bs-target="#galleryModal"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="chara-story-container section-container pb-4"
+              id="story-container"
+              style="display: none"
+            >
+              <div class="character-body-container">
+                <div class="accordion" id="story-accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button accordion-button-orange"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#story-box"
+                        aria-expanded="true"
+                        aria-controls="story-box"
+                      >
+                        story
+                      </button>
+                    </h2>
+                    <div
+                      id="story-box"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          In the mountain ranges of Yueling, an abandoned fox
+                          pup was picked up by the old master of the Jin Gui
+                          Sect. The young pup's parents had met a grisly fate
+                          under the blades of the bandits that haunted the area,
+                          while the pup itself had simply been left behind to
+                          die on its own. <br /><br />
+
+                          The old master brought the pup with him back to his
+                          sect, situated on an island in the centre of the
+                          Golden Turtle Lake, a secluded no man's land. There,
+                          he raised the pup among his own disciples, of which
+                          there were only three. Despite the illustrious
+                          reputation of his sect and his own accomplishments as
+                          a practitioner of the mystic arts, the old master was
+                          notoriously selective of his students. <br /><br />
+
+                          The fox pup was bestowed the name Qiu Ye, or “autumn
+                          leaf”, in accordance to the naming customs of his
+                          race, as well as the season during which he had been
+                          found. Although he was kept fed and clothed, the
+                          little fox boy was not treated the same as the other
+                          disciples. The old master taught him how to read and
+                          write, but saw no purpose training him extensively in
+                          martial arts or spiritual magic for he was merely a
+                          weak fox spirit. <br /><br />
+
+                          In fact, the old master intended to give Qiu Ye to his
+                          disciples as a vessel to enhance their spiritual
+                          powers, once the young fox spirit was grown.
+                          <br /><br />
+
+                          As Qiu Ye grew up, he remained none the wiser of the
+                          fate his master had planned for him. While he believed
+                          himself to be good friends with the other disciples,
+                          he was really no more than a mere servant. He was not
+                          allowed to attend lessons together with them and most
+                          of his time was occupied by countless chores, from
+                          cooking and cleaning to gathering firewood in the dead
+                          of winter. But the naïve little fox spirit did it all
+                          without any complaint, believing that his master and
+                          his martial siblings still regarded him kindly.
+                          <br /><br />
+
+                          Shortly after Qiu Ye's eighteenth birthday, the old
+                          master sent his disciples to retrieve a legendary
+                          spiritual weapon, with Qiu Ye accompanying them as an
+                          attendant.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <script src="scripts/main.js"></script>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="galleryModal"
+      tabindex="-1"
+      aria-labelledby="galleryModalLabel"
+    >
+      <i
+        class="fa fa-times-circle-o modal-cross"
+        aria-hidden="true"
+        data-bs-dismiss="modal"
+        aria-label="Close"
+      ></i>
+      <div class="modal-nav-container">
+        <i
+          class="fa fa-chevron-left modal-arrow modal-arrow-left"
+          aria-hidden="true"
+          onclick="showNextOrPrevImg(-1)"
+        ></i>
+      </div>
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="d-flex flex-row justify-content-center modal-row">
+            <div class="modal-image-container">
+              <img src="" class="modal-image img-fluid" id="modal-image" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-nav-container">
+        <i
+          class="fa fa-chevron-right modal-arrow modal-arrow-right"
+          aria-hidden="true"
+          onclick="showNextOrPrevImg(1)"
+        ></i>
+      </div>
+    </div>
+
+    <script src="scripts/profile.js"></script>
   </body>
 </html>
