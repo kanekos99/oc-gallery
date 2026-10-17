@@ -649,8 +649,8 @@ a.chara-body-row-item {
     margin-bottom: 20px;
   }
 
-  .intro-container {
-    margin-top: 10px;
+  .section-container {
+    padding-top: 10px;
   }
 
   .trivia-list {
