@@ -26,5 +26,5 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          publish_dir: ./public/blog
+          publish_dir: ./public/oc-gallery
           github_token: ${{ secrets.GITHUB_TOKEN }}
