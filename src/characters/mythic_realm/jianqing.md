@@ -29,7 +29,7 @@ dislikes:
   - Paperwork
 relationships:
   - name: Qiu Ye
-    icon: /images/qiu-ye.png
+    icon: /images/qiuye.png
     link: /oc-gallery/characters/qiu-ye
     status: Consort/ Lover
     description: To Jianqing, Qiu Ye is one of his closest friends, his most trusted advisor and confidante, and his most beloved person.

@@ -27,7 +27,7 @@ relationships:
     status: Boss/ Friend
     description: As Jianqing's loyal bodyguard and lieutenant, Yuzhen sees him as the epitome of a fair and just ruler, a kind-hearted and noble individual whom he has sworn to serve dutifully for the rest of his life. It is for that reason that he has vowed to take the secret feelings he harbors for Jianqing to his grave.
   - name: Qiu Ye
-    icon: /images/qiu-ye.png
+    icon: /images/qiuye.png
     link: /oc-gallery/characters/qiu-ye
     status: Close Friend
     description: “I would rather eat a whole cow than become friends with the likes of you.” Despite that platitude Yuzhen once uttered, they ended up becoming friends. After all, he promised Jianqing that he would protect Qiu Ye.
