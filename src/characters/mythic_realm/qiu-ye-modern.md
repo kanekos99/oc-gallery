@@ -18,7 +18,7 @@ preview_gallery:
 alternatives:
   - name: Original
     link: /oc-gallery/characters/qiu-ye
-    icon: /images/qiu-ye.png
+    icon: /images/qiuye.png
 ---
 
 <!-- section: introduction -->
