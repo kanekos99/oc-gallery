@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+
+    <link rel="stylesheet" type="text/css" href="{{ '/styles/common.css' | url }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ '/styles/modal.css' | url }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ '/styles/character.css' | url }}"/>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>OC Gallery</title>
+    <link rel="icon" type="image/x-icon" href="{{ image | url }}"/>
+  </head>
+  <body>
+    <div class="main-body" id="main-body">
+      <div class="container {{ theme }}-page">
+        <div class="pt-3 character-container-row">
+          <div class="sidebar">
+            <a href="{{ '/index.html' | url }}" class="sidebar-btn mt-2">
+              <i class="fa fa-arrow-circle-left me-2" aria-hidden="true"></i>
+              back
+            </a>
+            <div class="sidebar-img-container">
+              {% if au %}
+                <div class=character-version-label>
+                  {{ au }}
+                </div>
+              {% endif %}
+              <img src="{{ image | url }}" class="sidebar-img"/>
+            </div>
+            <div class="character-name-container">
+              <h1 class="character-name">{{ name }}</h1>
+            </div>
+            <div class="about-box">
+              <ul class="about-list">
+                {% if basic.fullname %}
+                  <li class="about-item">
+                    <label>Full Name</label>
+                    <span>{{ basic.fullname }}</span>
+                  </li>
+                {% endif %}
+                {% if basic.alias %}
+                  <li class="about-item">
+                    <label>Alias</label>
+                    <span>{{ basic.alias }}</span>
+                  </li>
+                {% endif %}
+                {% if basic.chara_title %}
+                  <li class="about-item">
+                    <label>Title</label>
+                    <span>{{ basic.chara_title }}</span>
+                  </li>
+                {% endif %}
+                {% if basic.gender %}
+                  <li class="about-item">
+                    <label>Gender</label>
+                    <span>{{ basic.gender }}</span>
+                  </li>
+                {% endif %}
+                {% if basic.species %}
+                  <li class="about-item">
+                    <label>Species</label>
+                    <span>{{ basic.species }}</span>
+                  </li>
+                {% endif %}
+                {% if basic.age %}
+                  <li class="about-item">
+                    <label>Age</label
+                  >
+                    <span>{{ basic.age }}</span>
+                  </li>
+                {% endif %}
+                {% if basic.affiliation %}
+                  <li class="about-item">
+                    <label>Affiliation</label>
+                    <span>{{ basic.affiliation }}</span>
+                  </li>
+                {% endif %}
+              </ul>
+            </div>
+          </div>
+          {% set storySections = content | getStorySubSections() %}
+          <div class="chara-info-container">
+            <div class="chara-info-top-bar">
+              <span class="character-label {{ theme }}-page"
+                >
+                <label>Series</label>{{ series }}</span
+              >
+              <div class="nav-info-buttons">
+                <a href="#" id="profile-nav-button" class="active">profile</a>
+                {% set galleryImages = sorted_images[page.fileSlug] %}
+                {% if galleryImages.count >= 5  %}
+                <a href="#gallery" id="gallery-nav-button">gallery</a>
+                {% endif %}
+                {% if storySections | length > 0 %}
+                <a href="#story" id="story-nav-button">story</a>
+                {% endif %}
+              </div>
+            </div>
+            <div
+              class="chara-profile-container section-container pb-4"
+              id="profile-container"
+            >
+              <div class="character-body-container">
+                <div class="accordion" id="introduction-accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button accordion-button-{{ theme }}"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#introduction-box"
+                        aria-expanded="true"
+                        aria-controls="introduction-box"
+                      >
+                        introduction
+                      </button>
+                    </h2>
+                    <div
+                      id="introduction-box"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                        {{ content | getSection("introduction") | safe }}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="character-body-container">
+                <div class="accordion" id="gallery-accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button accordion-button-{{ theme }}"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#gallery-box"
+                        aria-expanded="true"
+                        aria-controls="gallery-box"
+                      >
+                        gallery
+                      </button>
+                    </h2>
+                    <div
+                      id="gallery-box"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                        <div class="character-body-row gallery-row">
+                          {% for img in preview_gallery %}
+                          {% include 'gallery-thumbnail.njk' %}
+                          {%- endfor-%}
+                        </div>
+                        {% if galleryImages.count >= 5  %}
+                        <div class="gallery-button-row">
+                          <a href="#gallery" class="gallery-btn mt-2">
+                            view full gallery
+                            <i
+                              class="fa fa-arrow-circle-right ms-2"
+                              aria-hidden="true"
+                            ></i>
+                          </a>
+                        </div>
+                        {%- endif-%}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {% if trivia %}
+              <div class="character-body-container">
+                <div class="accordion" id="trivia-accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button accordion-button-{{ theme }}"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#trivia-box"
+                        aria-expanded="true"
+                        aria-controls="trivia-box"
+                      >
+                        trivia
+                      </button>
+                    </h2>
+                    <div
+                      id="trivia-box"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                        <ul class="trivia-list">
+                          {% for item in trivia %}
+                          <li>
+                            {{ item }}
+                          </li>
+                          {%- endfor-%}
+                        </ul>
+                        {% if likes %}
+                        <hr class="dotted-divider"/>
+                        <div class="trivia-row">
+                          <div class="preferences-box">
+                            <h2 class="character-heading likes-heading">
+                              likes
+                            </h2>
+                            <ul class="fa-ul preferences-list">
+                              {% for item in likes %}
+                              <li>
+                                <span class="fa-li"
+                                  >
+                                  <i class="fa fa-check"></i>
+                                </span
+                                >{{ item }}
+                              </li>
+                              {%- endfor-%}
+                            </ul>
+                          </div>
+                          <div class="preferences-box">
+                            <h2 class="character-heading dislikes-heading">
+                              dislikes
+                            </h2>
+                            <ul class="fa-ul preferences-list">
+                              {% for item in dislikes %}
+                              <li>
+                                <span class="fa-li"
+                                  >
+                                  <i class="fa fa-times"></i>
+                                </span
+                                >{{ item }}
+                              </li>
+                              {%- endfor-%}
+                            </ul>
+                          </div>
+                        </div>
+                        {%- endif -%}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {%- endif-%}
+              {% if relationships %}
+              <div class="character-body-container">
+                <div class="accordion" id="relationship-accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button accordion-button-{{ theme }}"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#relationship-box"
+                        aria-expanded="true"
+                        aria-controls="relationship-box"
+                      >
+                        relationships
+                      </button>
+                    </h2>
+                    <div
+                      id="relationship-box"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                        {% for relationship in relationships %}
+                        <div class="relationship-row">
+                          <a {% if relationship.link %}href="{{ relationship.link }}"{%- endif-%} class="relationship-img-thumbnail">
+                            <img src="{{ relationship.icon | url }}"/>
+                          </a>
+                          <div class="relationship-info">
+                            <div class="relationship-summary">
+                              <h3>{{ relationship.name }}</h3>
+                              <span>
+                                <label>Status:</label>{{ relationship.status }}</span>
+                            </div>
+                            <div class="relationship-text">
+                              <p>
+                                {{ relationship.description }}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        {% if not loop.last %}
+                        <hr class="dotted-divider"/>
+                        {% endif %}
+                        {%- endfor-%}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {%- endif-%}
+              {% if featured %}
+              <div class="character-body-container">
+                <div class="accordion" id="featured-accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button accordion-button-{{ theme }}"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#featured-box"
+                        aria-expanded="true"
+                        aria-controls="featured-box"
+                      >
+                        appears in
+                      </button>
+                    </h2>
+                    <div
+                      id="featured-box"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                        <div class="character-body-row">
+                          {% for item in featured %}
+                          <a
+                            href="{{ item.link }}"
+                            class="chara-body-row-item"
+                            target="_blank"
+                          >
+                            <span>{{ item.type }}</span>
+                            <div class="featured-image-thumbnail">
+                              <img src="{{ item.icon }}"/>
+                            </div>
+                            <div class="chara-row-item-title">
+                              <h2>{{ item.name }}</h2>
+                            </div>
+                          </a>
+                          {%- endfor-%}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {%- endif-%}
+              {% if alternatives %}
+              <div class="character-body-container">
+                <div class="accordion" id="au-accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button accordion-button-{{ theme }}"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#au-box"
+                        aria-expanded="true"
+                        aria-controls="au-box"
+                      >
+                        alternate versions
+                      </button>
+                    </h2>
+                    <div
+                      id="au-box"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                        <div class="character-body-row">
+                          {% for item in alternatives %}
+                          <a
+                            href="{{ item.link }}"
+                            class="chara-body-row-item au-item"
+                          >
+                            <div class="alternate-image-thumbnail">
+                              <img src="{{ item.icon | url }}"/>
+                            </div>
+                            <div class="chara-row-item-title">
+                              <h2>{{ item.name }}</h2>
+                            </div>
+                          </a>
+                          {%- endfor-%}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {%- endif-%}
+            </div>
+            {% if galleryImages.count >= 5  %}
+            <div
+              class="chara-gallery-container section-container pb-4"
+              id="gallery-container"
+              style="display: none"
+            >
+              {% if galleryImages.ref.length > 0  %}
+              <div class="character-body-container">
+                <div class="accordion" id="references-accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button accordion-button-{{ theme }}"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#references-box"
+                        aria-expanded="true"
+                        aria-controls="references-box"
+                      >
+                        references
+                      </button>
+                    </h2>
+                    <div
+                      id="references-box"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                        <div class="character-body-row gallery-row">
+                          {% for image in galleryImages.ref %}
+                          <div class="chara-gallery-img-thumbnail">
+                            <img
+                              src="{{ image }}"
+                              loading="lazy"
+                              onclick="showImage(this)"
+                              data-bs-toggle="modal"
+                              data-bs-target="#galleryModal"
+                            />
+                          </div>
+                          {% endfor %}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {%- endif-%}
+              {% if galleryImages.others.length > 0  %}
+              <div class="character-body-container">
+                <div class="accordion" id="art-accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button accordion-button-{{ theme }}"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#art-box"
+                        aria-expanded="true"
+                        aria-controls="art-box"
+                      >
+                        other art
+                      </button>
+                    </h2>
+                    <div
+                      id="art-box"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                        <div class="character-body-row gallery-row">
+                          {% for image in galleryImages.others %}
+                          <div class="chara-gallery-img-thumbnail">
+                            <img
+                              src="{{ image }}"
+                              loading="lazy"
+                              onclick="showImage(this)"
+                              data-bs-toggle="modal"
+                              data-bs-target="#galleryModal"
+                            />
+                          </div>
+                          {% endfor %}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {%- endif-%}
+            </div>
+            {%- endif-%}
+            {% set storySections = content | getStorySubSections() %}
+            {% if storySections | length > 0 %}
+            <div
+              class="chara-story-container section-container pb-4"
+              id="story-container"
+              style="display: none"
+            >
+              {% for key, htmlContent in storySections %}
+              <div class="character-body-container">
+                <div class="accordion" id="story-accordion-{{ loop.index }}">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button accordion-button-{{ theme }}"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#story-box-{{ loop.index }}"
+                        aria-expanded="true"
+                        aria-controls="story-box-{{ loop.index }}"
+                      >
+                        {{ key | capitalize }}
+                      </button>
+                    </h2>
+                    <div
+                      id="story-box-{{ loop.index }}"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                       {{ htmlContent | safe }}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="galleryModal"
+      tabindex="-1"
+      aria-labelledby="galleryModalLabel"
+    >
+      <i
+        class="fa fa-times-circle-o modal-cross"
+        aria-hidden="true"
+        data-bs-dismiss="modal"
+        aria-label="Close"
+      ></i>
+      <div class="modal-nav-container">
+        <i
+          class="fa fa-chevron-left modal-arrow modal-arrow-left"
+          aria-hidden="true"
+          onclick="showNextOrPrevImg(-1)"
+        ></i>
+      </div>
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="d-flex flex-row justify-content-center modal-row">
+            <div class="modal-image-container">
+              <img src="" class="modal-image img-fluid" id="modal-image"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-nav-container">
+        <i
+          class="fa fa-chevron-right modal-arrow modal-arrow-right"
+          aria-hidden="true"
+          onclick="showNextOrPrevImg(1)"
+        ></i>
+      </div>
+    </div>
+
+    <script src="{{ '/scripts/profile.js' | url }}"></script>
+  </body>
+</html>

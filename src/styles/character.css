@@ -18,6 +18,16 @@
   --tag-color: #df9b7a;
 }
 
+.lavender-page {
+  --box-shadow-color: #a3a5cfcf;
+  --text-color: #4a4e6f;
+  --background-color: #efecf4;
+  --heading-color: #7b7da4;
+  --label-color: #a3a5cf;
+  --label-text-color: white;
+  --tag-color: #a3a5cf;
+}
+
 .back-header {
   margin-bottom: 20px;
 }
@@ -86,6 +96,7 @@
   padding: 10px;
   background-color: white;
   box-shadow: 2px 2px var(--box-shadow-color);
+  position: relative;
 }
 
 .sidebar-img {
@@ -159,21 +170,43 @@
   display: block;
   text-align: center;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .character-name {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background-color: var(--heading-color);
   color: var(--label-text-color);
   font-family: "Dosis";
   font-weight: 900;
   border-radius: 25px;
-  padding: 3px 50px;
+  padding: 3px 0px;
   text-align: center;
   font-size: 1.5rem;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 0px;
   box-shadow: 2px 2px var(--box-shadow-color);
+}
+
+.character-version-label {
+  background-color: var(--background-color);
+  color: var(--heading-color);
+  /* border-bottom: 3px solid var(--box-shadow-color); */
+  font-weight: 900;
+  border-radius: 10px 0px 0px 10px;
+  padding: 0px 20px 0px 10px;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  width: auto;
+  display: inline;
+  position: absolute;
+  top: 20px;
+  right: 0px;
 }
 
 .chara-info-top-bar {
@@ -552,6 +585,17 @@ a.chara-body-row-item {
   margin-bottom: 0px;
 }
 
+.accordion-body p a {
+  color: var(--heading-color);
+  font-weight: 900;
+  text-decoration: 2px dotted underline var(--box-shadow-color);
+}
+
+.accordion-body p a:hover {
+  color: var(--text-color);
+  text-decoration: 2px underline solid var(--text-color);
+}
+
 .accordion-button {
   font-family: "afacad", sans-serif;
   font-weight: 900;
@@ -590,12 +634,20 @@ a.chara-body-row-item {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23c28262' viewBox='0 0 16 16'%3E%3Crect x='7' y='2' width='3' height='12'/%3E%3Crect x='2' y='7' width='12' height='3'/%3E%3C/svg%3E");
 }
 
+.accordion-button-lavender::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%237b7da4' viewBox='0 0 16 16'%3E%3Crect x='7' y='2' width='3' height='12'/%3E%3Crect x='2' y='7' width='12' height='3'/%3E%3C/svg%3E");
+}
+
 .accordion-button:not(.collapsed)::after {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3E%3Crect x='2' y='7' width='12' height='3'/%3E%3C/svg%3E");
 }
 
 .accordion-button-orange:not(.collapsed)::after {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23c28262' viewBox='0 0 16 16'%3E%3Crect x='2' y='7' width='12' height='3'/%3E%3C/svg%3E");
+}
+
+.accordion-button-lavender:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%237b7da4' viewBox='0 0 16 16'%3E%3Crect x='2' y='7' width='12' height='3'/%3E%3C/svg%3E");
 }
 
 /*---------------------------- responsiveness -----------------------------*/

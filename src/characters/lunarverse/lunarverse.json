@@ -1,0 +1,12 @@
+{
+    "layout": "character.njk",
+    "tags": "lunarverse",
+    "permalink": "characters/{{ page.fileSlug }}/index.html",
+    "order": [
+        "ailithir",
+        "caden"
+    ],
+    "about": "A sand-box type fantasy universe predominately featuring kemonomimi characters.",
+    "theme": "lavender",
+    "title": "Lunarverse"
+}

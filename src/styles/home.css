@@ -26,19 +26,28 @@
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1200px;
+}
+
+.container-row {
+  display: grid;
+  grid-template-areas: "sidebar character-container";
+  grid-template-columns: 300px 1fr;
+  gap: 20px;
+  align-items: start;
 }
 
 .sidebar {
-  width: 25%;
+  grid-area: sidebar;
   position: fixed;
-  top: 60px;
+  width: 300px;
+  padding-top: 20px;
 }
 
 .chara-gallery-container {
-  width: 65%;
-  margin-left: auto;
-  margin-right: 5%;
+  grid-column: 2 / 3;
+  margin-top: 18px;
+  grid-area: character-container;
 }
 
 .sidebar-img {
@@ -102,6 +111,7 @@
 .accordion-item {
   border: none;
   background-color: transparent;
+  margin-bottom: 10px;
 }
 
 .accordion-header {
@@ -110,7 +120,9 @@
 
 .accordion-body {
   background-color: var(--accordion-body-background);
-  padding: 1rem 1rem 1.2rem 1rem;
+  /* padding: 0.5rem 1rem 1.2rem 1rem; */
+  padding: 0rem 0rem 1.2rem 0rem;
+
   border-radius: 0px 0px 10px 10px;
   color: var(--accordion-body-text);
   margin-bottom: 1rem;
@@ -152,38 +164,51 @@
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3E%3Crect x='2' y='7' width='12' height='3'/%3E%3C/svg%3E");
 }
 
-.chara-gallery-desc {
-  background-color: white;
-  border-radius: 10px;
-  border: 3px dotted var(--accordion-desc-border-colour);
-  padding: 10px 20px 10px 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.chara-gallery-desc h3 {
-  background-color: var(--accordion-heading-colour);
-  border-radius: 25px;
-  color: white;
-  font-size: 1.1rem;
+.about-accordion-button {
+  font-family: "afacad", sans-serif;
   font-weight: 900;
-  padding: 3px 30px;
-  margin-bottom: 0px;
-  margin-right: 50px;
+  align-content: center;
+  background-color: var(--accordion-heading-colour) !important;
+  color: white !important;
+  /* border-radius: 10px !important; */
+  border-radius: 0px !important;
+  box-shadow: none;
+  padding: 5px 15px;
+  /* margin-top: 0.5rem; */
+  opacity: 0.8;
+  font-size: 1.1rem;
 }
 
-.chara-gallery-desc p {
-  margin: 0px;
+.about-accordion-button:not(.collapsed) {
+  /* border-radius: 10px 10px 0px 0px; */
+  border-radius: 0px !important;
+  box-shadow: none;
+}
+
+.about-accordion-button::after,
+.about-accordion-button:not(.collapsed)::after {
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fcf2e3' stroke='%23fcf2e3' stroke-width='1.5' stroke-linejoin='round' stroke-linecap='round'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+}
+
+.about-accordion-body {
+  background-color: white;
+  line-height: 1.1;
+  /* border-radius: 0px 0px 10px 10px; */
+  border-radius: 0px;
+  padding: 10px;
   text-align: center;
-  line-height: 1.2;
+  margin-bottom: 0px;
 }
 
 .chara-gallery-row {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
-  margin-top: 10px;
+  margin-top: 15px;
   gap: 10px;
+  padding: 0px 15px 0px 15px;
 }
 
 .chara-box {
@@ -220,7 +245,7 @@
 
 .chara-name {
   font-weight: 900;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: var(--accordion-body-text);
   text-align: center;
   margin-bottom: 0px;
@@ -230,11 +255,11 @@
 
 /*---------------------------- responsiveness -----------------------------*/
 
-@media only screen and (max-width: 1200px) {
+/* @media only screen and (max-width: 1200px) {
   .sidebar {
     width: 30%;
   }
-}
+} */
 
 @media only screen and (max-width: 900px) {
   .container {
@@ -242,12 +267,13 @@
   }
 
   .container-row {
-    justify-content: center;
+    display: block;
   }
 
   .sidebar {
     width: 100%;
     position: static;
+    padding-top: 10px;
   }
 
   .chara-gallery-container {
@@ -265,30 +291,16 @@
     gap: 5px;
   }
 
-  .chara-gallery-desc {
-    display: block;
-    padding: 10px 10px 15px 10px;
-  }
-
-  .chara-gallery-desc h3 {
-    display: block;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 10px;
-    width: 50%;
-  }
-
-  .chara-gallery-desc p {
-    display: block;
-    font-size: 1rem;
-    line-height: 1.1;
-  }
-
   .accordion-button {
     font-size: 1.3rem;
   }
 
   .accordion-body {
+    /* padding: 5px 10px 15px 10px; */
+    padding: 0px 0px 15px 0px;
+  }
+
+  .about-accordion-body {
     padding: 10px 10px 15px 10px;
   }
 }

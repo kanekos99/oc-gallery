@@ -1,0 +1,13 @@
+{
+    "layout": "character.njk",
+    "tags": "mythic_realm",
+    "permalink": "characters/{{ page.fileSlug }}/index.html",
+    "order": [
+        "qiu-ye",
+        "jianqing",
+        "yuzhen"
+    ],
+    "about": "A Chinese fantasy inspired realm whose inhabitants are mostly based on mythological creatures.",
+    "theme": "orange",
+    "title": "A Dance of Autumn Leaves"
+}

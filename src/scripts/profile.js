@@ -32,6 +32,11 @@ function showDefaultProfile() {
   hideAllSections();
   profileContainer.style.display = "block";
   profileButton.classList.add("active");
+  history.replaceState(
+    null,
+    document.title,
+    window.location.pathname + window.location.search,
+  );
 }
 
 function hideAllSections() {
@@ -45,6 +50,12 @@ function hideAllSections() {
 
 function isValidHash(currentHash) {
   if (!currentHash || currentHash.trim() === "") {
+    return false;
+  }
+  if (currentHash === "story" && !storyContainer) {
+    return false;
+  }
+  if (currentHash === "gallery" && !galleryContainer) {
     return false;
   }
   const isValidHash = validHash.includes(currentHash);

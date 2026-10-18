@@ -1,0 +1,59 @@
+<div
+    class="accordion accordion-{{ world.theme }} mb-2"
+    id="{{ world.name }}-accordion"
+>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#{{ world.name }}-box"
+            aria-expanded="true"
+            aria-controls="{{ world.name }}-box"
+            >
+            {{ world.title }}
+            </button>
+        </h2>
+        <div
+            id="{{ world.name }}-box"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+        >
+            <div class="accordion-body shadow">
+                <div class="chara-gallery-desc">
+                   <div class="accordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed about-accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#{{ world.name }}-about-box"
+                                aria-expanded="true"
+                                aria-controls="{{ world.name }}-about-box"
+                            >
+                            <i class="fa fa-book me-2" aria-hidden="true"></i>
+                            about
+                            </button>
+                            </h2>
+                            <div
+                            id="{{ world.name }}-about-box"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="headingOne"
+                            >
+                            <div class="accordion-body about-accordion-body">
+                               {{ world.about }}
+                            </div>
+                            </div>
+                    </div>
+                </div>
+                </div>
+                <div class="chara-gallery-row">
+                    {%- for chara in world.characters -%}
+                    {% include 'character-preview.njk' %}
+                    {%- endfor-%}
+                    </div>
+                </div>
+        </div>
+</div>

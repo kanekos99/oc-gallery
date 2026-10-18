@@ -1,0 +1,20 @@
+{
+  "name": "oc-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy --pathprefix 'oc-gallery'",
+    "neocities": "cross-env NODE_ENV=neocities eleventy --pathprefix 'characters' && rimraf public/oc-gallery/images"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "cross-env": "^10.1.0",
+    "rimraf": "^6.1.2"
+  }
+}
