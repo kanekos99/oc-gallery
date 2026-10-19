@@ -72,4 +72,6 @@ Caden decided to remain with Ailithir instead of leaving to travel on his own ag
 
 <!-- sub-section: future -->
 
-After the war, Ailithir placed all his efforts into helping to rebuild his realm. Eventually, the realm started to prosper once more, entering a new golden age. Ailithir, finally able to return to his more passive role of being a priest, rebuilt his mansion into an orphanage for children orphaned during the war, and adopted a young orphaned girl by the name of Hilda.
+After the war, Ailithir placed all his efforts into helping to rebuild his realm. Eventually, the realm started to prosper once more, entering a new golden age.<br><br> 
+
+Ailithir, finally able to return to his more passive role of being a priest, rebuilt his mansion into an orphanage for children orphaned during the war, and adopted a young orphaned girl by the name of Hilda.

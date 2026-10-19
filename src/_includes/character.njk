@@ -473,11 +473,9 @@
               {% endif %}             
             </div>
             {% if galleryImages.count >= 5  %}
-            <div
-              class="chara-gallery-container section-container"
+            <div class="chara-gallery-container section-container"
               id="gallery-container"
-              style="display: none"
-            >
+              style="display: none">
               {% if galleryImages.ref.length > 0  %}
               <div class="character-body-container">
                 <div class="accordion" id="references-accordion">
@@ -620,13 +618,25 @@
             {%- endif-%}
             {% set storySections = content | getStorySubSections() %}
             {% if storySections | length > 0 %}
-            <div
-              class="chara-story-container section-container"
+            <div class="chara-story-container section-container"
               id="story-container"
-              style="display: none"
-            >
+              style="display: none">
               {% for key, htmlContent in storySections %}
               <div class="character-body-container">
+                <div class="spoiler-warning">
+                  <div class="spoiler-warning-box shadow">
+                    <h3 class="spoiler-heading">
+                      warning
+                    </h3>
+                    <p>
+                      <b>This section contains spoilers!</b>
+                      <br> Are you sure you would like to view?
+                    </p>
+                    <div class="spoiler-button-container">
+                      <button class="spoiler-button" onclick="hideSpoilerWarning();">proceed</button>
+                    </div>
+                  </div>
+                </div>
                 <div class="accordion" id="story-accordion-{{ loop.index }}">
                   <div class="accordion-item">
                     <h2 class="accordion-header">
