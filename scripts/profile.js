@@ -72,6 +72,14 @@ window.addEventListener("hashchange", () => {
   handleHashChange();
 });
 
+/*--------------Spoilers---------------------*/
+
+function hideSpoilerWarning() {
+  document.querySelectorAll(".spoiler-warning").forEach((warning) => {
+    warning.style.display = "none";
+  });
+}
+
 /*--------------Modal---------------------*/
 
 const modalImg = document.getElementById("modal-image");
@@ -89,12 +97,11 @@ function showImageCredits(image) {
   if (image.dataset.credit) {
     console.log(image.dataset.credit);
     console.log(image.dataset.creditLink);
-    const modalCreditLink = 
-    `
+    const modalCreditLink = `
     <a href="${image.dataset.creditLink}" target="_blank">
       ${image.dataset.credit}
     </a>
-    `
+    `;
     modalCaption.innerHTML = image.dataset.artType + " by " + modalCreditLink;
     modalCaption.style.display = "block";
   } else {
