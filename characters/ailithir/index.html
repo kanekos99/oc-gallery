@@ -84,6 +84,7 @@
                 
               </ul>
             </div>
+            
           </div>
           
           <div class="chara-info-container">
@@ -104,35 +105,34 @@
               </div>
             </div>
             <div
-              class="chara-profile-container section-container pb-4"
-              id="profile-container"
-            >
+              class="chara-profile-container section-container"
+              id="profile-container">
               <div class="character-body-container">
                 <div class="accordion" id="introduction-accordion">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button accordion-button-lavender"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#introduction-box"
-                        aria-expanded="true"
-                        aria-controls="introduction-box"
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button accordion-button-lavender"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#introduction-box"
+                          aria-expanded="true"
+                          aria-controls="introduction-box"
+                        >
+                          introduction
+                        </button>
+                      </h2>
+                      <div
+                        id="introduction-box"
+                        class="accordion-collapse collapse show"
+                        aria-labelledby="headingOne"
                       >
-                        introduction
-                      </button>
-                    </h2>
-                    <div
-                      id="introduction-box"
-                      class="accordion-collapse collapse show"
-                      aria-labelledby="headingOne"
-                    >
-                      <div class="accordion-body">
-                        <p>Known as the Silver Sage of the Lunaris, Ailithir is a gentle and benevolent priest who serves as a vessel for his deity and a guiding light for his people. Patient and calm, he loves to offer help or advice, extending his compassion to everyone.<br><br></p>
+                        <div class="accordion-body">
+                          <p>Known as the Silver Sage of the Lunaris, Ailithir is a gentle and benevolent priest who serves as a vessel for his deity and a guiding light for his people. Patient and calm, he loves to offer help or advice, extending his compassion to everyone.<br><br></p>
 <p>When not found at the local temple, he lives together with his <a href="/oc-gallery/characters/caden/">boyfriend/ bodyguard</a> and their adopted children in a small cabin by the sea.</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
                 </div>
               </div>
               <div class="character-body-container">
@@ -254,10 +254,11 @@
                     </div>
                   </div>
                 </div>
-              </div></div>
+              </div>             
+            </div>
             
             <div
-              class="chara-gallery-container section-container pb-4"
+              class="chara-gallery-container section-container"
               id="gallery-container"
               style="display: none"
             >
@@ -395,7 +396,7 @@
                           </div>
                           
                         </div>
-                      </div>
+                        </div>
                     </div>
                   </div>
                 </div>
@@ -403,7 +404,7 @@
               </div>
             
             <div
-              class="chara-story-container section-container pb-4"
+              class="chara-story-container section-container"
               id="story-container"
               style="display: none"
             >
@@ -509,8 +510,16 @@
               
             </div>
             
+            <div class="footer-container pb-3">
+              <button
+                class="sidebar-btn"
+                onclick="window.scrollTo({top:0,behavior:'smooth'})"
+              >
+                <i class="fa fa-arrow-up me-2" aria-hidden="true"></i>
+                <span>top</span>
+              </button>
+            </div>
           </div>
-        </div>
       </div>
     </div>
 

@@ -80,6 +80,7 @@
                 
               </ul>
             </div>
+            
           </div>
           
           <div class="chara-info-container">
@@ -96,36 +97,35 @@
               </div>
             </div>
             <div
-              class="chara-profile-container section-container pb-4"
-              id="profile-container"
-            >
+              class="chara-profile-container section-container"
+              id="profile-container">
               <div class="character-body-container">
                 <div class="accordion" id="introduction-accordion">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button accordion-button-orange"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#introduction-box"
-                        aria-expanded="true"
-                        aria-controls="introduction-box"
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button accordion-button-orange"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#introduction-box"
+                          aria-expanded="true"
+                          aria-controls="introduction-box"
+                        >
+                          introduction
+                        </button>
+                      </h2>
+                      <div
+                        id="introduction-box"
+                        class="accordion-collapse collapse show"
+                        aria-labelledby="headingOne"
                       >
-                        introduction
-                      </button>
-                    </h2>
-                    <div
-                      id="introduction-box"
-                      class="accordion-collapse collapse show"
-                      aria-labelledby="headingOne"
-                    >
-                      <div class="accordion-body">
-                        <p>A Qilin who served as <a href="/oc-gallery/characters/jianqing">Jianqing's</a> lieutenant when he was still a general. Upon Jianqing’s ascendance to the imperial throne, Yuzhen was named the Grand Marshal for the role he played in overthrowing the previous tyrant emperor.<br><br></p>
+                        <div class="accordion-body">
+                          <p>A Qilin who served as <a href="/oc-gallery/characters/jianqing">Jianqing's</a> lieutenant when he was still a general. Upon Jianqing’s ascendance to the imperial throne, Yuzhen was named the Grand Marshal for the role he played in overthrowing the previous tyrant emperor.<br><br></p>
 <p>While Qilins are typically gentle and pacifistic folk, Yuzhen is a cold and reserved individual, who sees himself as a soldier, first and foremost, a belief moulded by his cruel upbringing at the hands the previous dragon emperor. He is extremely stubborn and independent, but also fiercely loyal, particularly towards Jianqing.<br><br></p>
 <p>At the same time, he is dutiful and disciplined, taking his responsibilities very seriously, even at the cost of his own well-being.</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
                 </div>
               </div>
               <div class="character-body-container">
@@ -299,11 +299,20 @@
                     </div>
                   </div>
                 </div>
-              </div></div>
+              </div>             
+            </div>
             
             
+            <div class="footer-container pb-3">
+              <button
+                class="sidebar-btn"
+                onclick="window.scrollTo({top:0,behavior:'smooth'})"
+              >
+                <i class="fa fa-arrow-up me-2" aria-hidden="true"></i>
+                <span>top</span>
+              </button>
+            </div>
           </div>
-        </div>
       </div>
     </div>
 

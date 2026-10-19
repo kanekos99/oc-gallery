@@ -90,6 +90,7 @@
                 
               </ul>
             </div>
+            
           </div>
           
           <div class="chara-info-container">
@@ -108,37 +109,36 @@
               </div>
             </div>
             <div
-              class="chara-profile-container section-container pb-4"
-              id="profile-container"
-            >
+              class="chara-profile-container section-container"
+              id="profile-container">
               <div class="character-body-container">
                 <div class="accordion" id="introduction-accordion">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button accordion-button-orange"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#introduction-box"
-                        aria-expanded="true"
-                        aria-controls="introduction-box"
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button accordion-button-orange"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#introduction-box"
+                          aria-expanded="true"
+                          aria-controls="introduction-box"
+                        >
+                          introduction
+                        </button>
+                      </h2>
+                      <div
+                        id="introduction-box"
+                        class="accordion-collapse collapse show"
+                        aria-labelledby="headingOne"
                       >
-                        introduction
-                      </button>
-                    </h2>
-                    <div
-                      id="introduction-box"
-                      class="accordion-collapse collapse show"
-                      aria-labelledby="headingOne"
-                    >
-                      <div class="accordion-body">
-                        <p>One of the four Divine Lords who currently holds the seat of the Azure Dragon Emperor of Qinghai.<br><br></p>
+                        <div class="accordion-body">
+                          <p>One of the four Divine Lords who currently holds the seat of the Azure Dragon Emperor of Qinghai.<br><br></p>
 <p>A stiff but polite individual frequently described as more of warrior than a ruler, Jianqing has no love for the court or any sort of politics, preferring to solve his conflicts using a blade over words. He can almost always be found in the company of his trusted aide, <a href="/oc-gallery/characters/qiu-ye">Qiu Ye</a>, much to the irritation of other officials hoping to win his favor.<br><br></p>
 <p>Although he was born as the second prince, he was greatly favoured by his father over his older half-brother, Lianyu, incurring his brother's jealousy. Scheming to seize the throne for himself, Lianyu murdered his own father and deposed of Jianqing's mother, the empress. This horrifying turn of events forced Jianqing into flee into exile, during which he encountered Qiu Ye.<br><br></p>
 <p>He eventually returned to his kingdom in disguise as a general, and with the help of his allies, was able to overthrow his tyrant brother and reclaim the throne.</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
                 </div>
               </div>
               <div class="character-body-container">
@@ -408,10 +408,11 @@
                     </div>
                   </div>
                 </div>
-              </div></div>
+              </div>             
+            </div>
             
             <div
-              class="chara-gallery-container section-container pb-4"
+              class="chara-gallery-container section-container"
               id="gallery-container"
               style="display: none"
             >
@@ -539,15 +540,23 @@
                           </div>
                           
                         </div>
-                      </div>
+                        </div>
                     </div>
                   </div>
                 </div>
               </div>
               </div>
             
+            <div class="footer-container pb-3">
+              <button
+                class="sidebar-btn"
+                onclick="window.scrollTo({top:0,behavior:'smooth'})"
+              >
+                <i class="fa fa-arrow-up me-2" aria-hidden="true"></i>
+                <span>top</span>
+              </button>
+            </div>
           </div>
-        </div>
       </div>
     </div>
 

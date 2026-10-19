@@ -79,6 +79,7 @@
                 
               </ul>
             </div>
+            
           </div>
           
           <div class="chara-info-container">
@@ -97,36 +98,35 @@
               </div>
             </div>
             <div
-              class="chara-profile-container section-container pb-4"
-              id="profile-container"
-            >
+              class="chara-profile-container section-container"
+              id="profile-container">
               <div class="character-body-container">
                 <div class="accordion" id="introduction-accordion">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button accordion-button-lavender"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#introduction-box"
-                        aria-expanded="true"
-                        aria-controls="introduction-box"
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button accordion-button-lavender"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#introduction-box"
+                          aria-expanded="true"
+                          aria-controls="introduction-box"
+                        >
+                          introduction
+                        </button>
+                      </h2>
+                      <div
+                        id="introduction-box"
+                        class="accordion-collapse collapse show"
+                        aria-labelledby="headingOne"
                       >
-                        introduction
-                      </button>
-                    </h2>
-                    <div
-                      id="introduction-box"
-                      class="accordion-collapse collapse show"
-                      aria-labelledby="headingOne"
-                    >
-                      <div class="accordion-body">
-                        <p>A former warrior of the Rhyll Dominion, he grew disillusioned with a life of battle and left to seek a better future elsewhere. However, by deserting his realm, he is branded a traitor and hunted down by his own kin.<br><br></p>
+                        <div class="accordion-body">
+                          <p>A former warrior of the Rhyll Dominion, he grew disillusioned with a life of battle and left to seek a better future elsewhere. However, by deserting his realm, he is branded a traitor and hunted down by his own kin.<br><br></p>
 <p>Caden helped <a href="/oc-gallery/characters/ailithir">Ailithir</a> save the Lunaris realm by driving out the invading Rhyll forces. Ironically, he was then made the Captain of the Lunaris Guard, but he eventually resigned and became a baker.<br><br></p>
 <p>He has no magical powers whatsoever unlike his Lunaris allies, but he is very skilled in melee combat.</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
                 </div>
               </div>
               <div class="character-body-container">
@@ -202,10 +202,11 @@
                   </div>
                 </div>
               </div>
-              </div>
+                           
+            </div>
             
             <div
-              class="chara-gallery-container section-container pb-4"
+              class="chara-gallery-container section-container"
               id="gallery-container"
               style="display: none"
             >
@@ -313,15 +314,23 @@
                           </div>
                           
                         </div>
-                      </div>
+                        </div>
                     </div>
                   </div>
                 </div>
               </div>
               </div>
             
+            <div class="footer-container pb-3">
+              <button
+                class="sidebar-btn"
+                onclick="window.scrollTo({top:0,behavior:'smooth'})"
+              >
+                <i class="fa fa-arrow-up me-2" aria-hidden="true"></i>
+                <span>top</span>
+              </button>
+            </div>
           </div>
-        </div>
       </div>
     </div>
 
