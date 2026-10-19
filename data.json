@@ -90,34 +90,24 @@
     "type": "ref"
   },
   {
-    "image": "https://kanekos99.github.io/gallery/assets/artwork/sketches/allie_sketch.PNG",
-    "tags": "ailithir",
-    "type": "illustration"
-  },
-  {
-    "image": "https://kanekos99.github.io/art-archive/img/small/allie_caden.png",
-    "tags": "ailithir, caden",
-    "type": "illustration"
-  },
-  {
     "image": "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/Standee.png",
     "tags": "ailithir, caden",
     "type": "chibi"
   },
   {
-    "image": "https://kanekos99.github.io/art-archive/img/small/allie_chibi.png",
+    "image": "https://kanekos99.github.io/gallery/assets/artwork/sketches/allie_sketch.PNG",
     "tags": "ailithir",
-    "type": "chibi"
+    "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/caden_ref.png",
+    "tags": "caden",
+    "type": "ref"
   },
   {
     "image": "https://kanekos99.github.io/art-archive/img/small/caden_chibi.png",
     "tags": "caden",
-    "type": "chibi"
-  },
-  {
-    "image": "https://kanekos99.github.io/art-archive/img/small/caden_young.png",
-    "tags": "caden",
-    "type": "illustration"
+    "type": "ref"
   },
   {
     "image": "https://kanekos99.github.io/art-archive/img/small/allie_ref.png",
@@ -125,8 +115,8 @@
     "type": "ref"
   },
   {
-    "image": "https://kanekos99.github.io/art-archive/img/small/caden_ref.png",
-    "tags": "caden",
+    "image": "https://kanekos99.github.io/art-archive/img/small/allie_chibi.png",
+    "tags": "ailithir",
     "type": "ref"
   },
   {
@@ -182,6 +172,101 @@
   {
     "image": "https://kanekos99.github.io/art-archive/img/small/modern-au.png",
     "tags": "qiu-ye-modern, jianqing-modern",
+    "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/allie_caden.png",
+    "tags": "ailithir, caden",
+    "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/blue_1.png",
+    "tags": "ailithir",
+    "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/blue_2.png",
+    "tags": "ailithir, caden",
+    "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/blue_3.png",
+    "tags": "ailithir, caden",
+    "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/blue_4.png",
+    "tags": "ailithir, caden",
+    "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/blue_4.png",
+    "tags": "ailthir, caden",
+    "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/blue_6.png",
+    "tags": "caden",
+    "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/moonrise.png",
+    "tags": "ailithir, caden",
+    "type": "old"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/family.png",
+    "tags": "ailithir, caden, hilda, solius, elbius",
+    "type": "old"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/allie_old.png",
+    "tags": "ailithir",
+    "type": "old"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/allie_design_old.png",
+    "tags": "ailithir",
+    "type": "old"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/wedding.png",
+    "tags": "ailithir, caden",
+    "type": "old"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/apron.png",
+    "tags": "ailithir",
+    "type": "old"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/old_chibi.png",
+    "tags": "ailithir",
+    "type": "old"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/chonk.png",
+    "tags": "ailithir",
+    "type": "old"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/neko_day.png",
+    "tags": "ailithir, solius",
+    "type": "old"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/old_allie_sketches.png",
+    "tags": "ailithir",
+    "type": "old"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/allie_doodle_old.png",
+    "tags": "ailithir",
+    "type": "old"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/caden_young.png",
+    "tags": "caden",
     "type": "illustration"
   }
 ]

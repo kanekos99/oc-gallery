@@ -7,11 +7,17 @@ module.exports = function () {
 
   data.forEach((item) => {
     const imageUrl = item.image;
-    const category = item.type === "ref" ? "ref" : "others";
+    let category = "others";
+    if (item.type === "ref") {
+      category = "ref";
+    } else if (item.type === "old") {
+      category = "old";
+    }
     const tags = item.tags.split(",").map((tag) => tag.trim());
 
     tags.forEach((char) => {
-      if (!characters[char]) characters[char] = { ref: [], others: [] };
+      if (!characters[char])
+        characters[char] = { ref: [], others: [], old: [] };
       if (!characters[char][category].includes(imageUrl)) {
         characters[char][category].push(imageUrl);
       }
@@ -23,11 +29,13 @@ module.exports = function () {
   Object.keys(characters).forEach((char) => {
     const refList = characters[char].ref;
     const othersList = characters[char].others;
+    const oldList = characters[char].old;
 
     outputData[char] = {
-      count: refList.length + othersList.length,
+      count: refList.length + othersList.length + oldList.length,
       ref: refList,
       others: othersList,
+      old: oldList,
     };
   });
 

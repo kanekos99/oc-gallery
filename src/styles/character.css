@@ -351,8 +351,9 @@
   margin-bottom: 0px;
 }
 
-#trivia-box .accordion-body {
-  padding: 0.5rem 0.5rem 0rem 0.5rem;
+#trivia-box .accordion-body,
+#powers-box .accordion-body {
+  padding: 0.5rem 1rem 0rem 0.5rem;
 }
 
 .trivia-list li {
@@ -435,7 +436,8 @@
 #gallery-box .accordion-body,
 #references-box .accordion-body,
 #art-box .accordion-body,
-#gift-box .accordion-body {
+#gift-box .accordion-body,
+#old-art-box .accordion-body {
   padding: 10px 5px 0px 5px;
   margin-bottom: 0px;
 }
@@ -533,12 +535,20 @@ a.chara-body-row-item {
   margin-bottom: 5px;
 }
 
-.relationship-summary h3 {
+.relationship-summary a {
+  text-decoration: none !important;
+}
+
+.relationship-summary a h3 {
   font-size: 1.2rem;
   font-weight: 900;
   margin-bottom: 0px;
   font-family: "Dosis";
   color: var(--heading-color);
+}
+
+.relationship-summary a h3:hover {
+  text-decoration: 2px solid underline var(--box-shadow-color);
 }
 
 .relationship-summary span {
@@ -609,6 +619,8 @@ a.chara-body-row-item {
 
 .alert {
   text-align: center;
+  padding: 10px 20px;
+  font-size: 0.9rem;
 }
 
 .footer-container button {

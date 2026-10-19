@@ -223,6 +223,41 @@
                   </div>
                 </div>
               </div>
+              {% if powers %}
+              <div class="character-body-container">
+                <div class="accordion" id="powers-accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button accordion-button-{{ theme }}"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#powers-box"
+                        aria-expanded="true"
+                        aria-controls="powers-box"
+                      >
+                        powers and abilities
+                      </button>
+                    </h2>
+                    <div
+                      id="powers-box"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                        <ul class="trivia-list">
+                          {% for power in powers %}
+                          <li>
+                            <b>{{ power.name }}</b>: {{ power.description }}
+                          </li>
+                          {%- endfor-%}
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {%- endif-%}
               {% if trivia %}
               <div class="character-body-container">
                 <div class="accordion" id="trivia-accordion">
@@ -324,7 +359,9 @@
                           </a>
                           <div class="relationship-info">
                             <div class="relationship-summary">
-                              <h3>{{ relationship.name }}</h3>
+                              <a {% if relationship.link %}href="{{ relationship.link }}"{%- endif-%}>
+                                <h3>{{ relationship.name }}</h3>
+                              </a>
                               <span>
                                 <label>Status:</label>{{ relationship.status }}</span>
                             </div>
@@ -614,6 +651,51 @@
                 </div>
               </div>
               {%- endif-%}
+              {% if galleryImages.old.length > 0  %}
+              <div class="character-body-container">
+                <div class="accordion" id="old-art-accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button accordion-button-{{ theme }}"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#old-art-box"
+                        aria-expanded="true"
+                        aria-controls="old-art-box"
+                      >
+                        old art
+                      </button>
+                    </h2>
+                    <div
+                      id="old-art-box"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                        <div class="alert alert-warning">
+                          <b>Note:</b> The art below features older designs and is only here for archival purposes.<br> 
+                          Please do not use as references.
+                        </div>
+                        <div class="character-body-row gallery-row">
+                          {% for image in galleryImages.old %}
+                          <div class="chara-gallery-img-thumbnail">
+                            <img
+                              src="{{ image }}"
+                              loading="lazy"
+                              onclick="showImage(this)"
+                              data-bs-toggle="modal"
+                              data-bs-target="#galleryModal"
+                            />
+                          </div>
+                          {% endfor %}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {%- endif-%}
             </div>
             {%- endif-%}
             {% set storySections = content | getStorySubSections() %}
@@ -630,7 +712,7 @@
                     </h3>
                     <p>
                       <b>This section contains spoilers!</b>
-                      <br> Are you sure you would like to view?
+                      <br> Please confirm if you would like to view.
                     </p>
                     <div class="spoiler-button-container">
                       <button class="spoiler-button" onclick="hideSpoilerWarning();">proceed</button>
@@ -648,7 +730,7 @@
                         aria-expanded="true"
                         aria-controls="story-box-{{ loop.index }}"
                       >
-                        {{ key | capitalize }}
+                        {{ key }}
                       </button>
                     </h2>
                     <div

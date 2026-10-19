@@ -18,5 +18,37 @@
             "credit_link": "https://artfight.net/~KaishiTQU",
             "type": "ArtFight Attack"
         }
+    ],
+    "ailithir": [
+        {
+            "src": "https://kanekos99.github.io/art-archive/gift_comms/small/Saltedbug.png",
+            "credit": "Saltedbug",
+            "credit_link": "https://toyhou.se/Saltedbug",
+            "type": "ArtFight Attack"
+        },
+        {
+            "src": "https://kanekos99.github.io/art-archive/gift_comms/small/AgentStarch.png",
+            "credit": "AgentStarch",
+            "credit_link": "https://toyhou.se/AgentStarch",
+            "type": "ArtFight Attack"
+        },
+        {
+            "src": "https://kanekos99.github.io/art-archive/gift_comms/small/AkumaFox.png",
+            "credit": "AkumaFox",
+            "credit_link": "https://toyhou.se/AkumaFox",
+            "type": "ArtFight Attack"
+        },
+        {
+            "src": "https://kanekos99.github.io/art-archive/gift_comms/small/Rococco.png",
+            "credit": "Rococco",
+            "credit_link": "https://toyhou.se/Rococco",
+            "type": "Art Trade"
+        },
+        {
+            "src": "https://kanekos99.github.io/art-archive/gift_comms/small/Rentrusion.png",
+            "credit": "Rentrusion",
+            "credit_link": "https://artfight.net/~Rentrusion",
+            "type": "ArtFight Attack"
+        }
     ]
 }

@@ -7,7 +7,7 @@ basic:
   fullname: Zheng Jianqing (郑鉴清)
   gender: Male
   species: Water Dragon
-  alias: Lingyan
+  alias: Yin Lingyan (殷灵烟)
   chara_title: Azure Dragon Emperor
   age: 27+
   affiliation: Qinghai

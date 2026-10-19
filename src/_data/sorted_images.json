@@ -23,21 +23,39 @@
             "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/Qiu_Ye_Chibi_Doodle.png",
             "https://kanekos99.github.io/sketch-gallery/img/Plush_v2.webp",
             "https://kanekos99.github.io/art-archive/img/small/third_wheel.png"
-        ]
+        ],
+        "old": []
     },
     "ailithir": {
-        "count": 8,
+        "count": 23,
         "ref": [
             "https://kanekos99.github.io/gallery/assets/artwork/character_designs/references/Allie.png",
             "https://kanekos99.github.io/gallery/assets/artwork/character_designs/references/allie_model.png",
-            "https://kanekos99.github.io/art-archive/img/small/allie_ref.png"
+            "https://kanekos99.github.io/art-archive/img/small/allie_ref.png",
+            "https://kanekos99.github.io/art-archive/img/small/allie_chibi.png"
         ],
         "others": [
             "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/Tarot_Colour.png",
+            "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/Standee.png",
             "https://kanekos99.github.io/gallery/assets/artwork/sketches/allie_sketch.PNG",
             "https://kanekos99.github.io/art-archive/img/small/allie_caden.png",
-            "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/Standee.png",
-            "https://kanekos99.github.io/art-archive/img/small/allie_chibi.png"
+            "https://kanekos99.github.io/art-archive/img/small/blue_1.png",
+            "https://kanekos99.github.io/art-archive/img/small/blue_2.png",
+            "https://kanekos99.github.io/art-archive/img/small/blue_3.png",
+            "https://kanekos99.github.io/art-archive/img/small/blue_4.png"
+        ],
+        "old": [
+            "https://kanekos99.github.io/art-archive/img/small/moonrise.png",
+            "https://kanekos99.github.io/art-archive/img/small/family.png",
+            "https://kanekos99.github.io/art-archive/img/small/allie_old.png",
+            "https://kanekos99.github.io/art-archive/img/small/allie_design_old.png",
+            "https://kanekos99.github.io/art-archive/img/small/wedding.png",
+            "https://kanekos99.github.io/art-archive/img/small/apron.png",
+            "https://kanekos99.github.io/art-archive/img/small/old_chibi.png",
+            "https://kanekos99.github.io/art-archive/img/small/chonk.png",
+            "https://kanekos99.github.io/art-archive/img/small/neko_day.png",
+            "https://kanekos99.github.io/art-archive/img/small/old_allie_sketches.png",
+            "https://kanekos99.github.io/art-archive/img/small/allie_doodle_old.png"
         ]
     },
     "ruilan": {
@@ -46,7 +64,8 @@
         "others": [
             "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/qiu_ye_8.png",
             "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/jq_bb.png"
-        ]
+        ],
+        "old": []
     },
     "jianqing": {
         "count": 7,
@@ -60,32 +79,44 @@
             "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/Jianqing_Chibi_Doodle.png",
             "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/design_2.png",
             "https://kanekos99.github.io/art-archive/img/small/third_wheel.png"
-        ]
+        ],
+        "old": []
     },
     "qiu-zhi": {
         "count": 1,
         "ref": [],
         "others": [
             "https://kanekos99.github.io/art-archive/img/small/qiu-ye-lantern.png"
-        ]
+        ],
+        "old": []
     },
     "xue-hua": {
         "count": 1,
         "ref": [],
         "others": [
             "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/Shapeshifter_1.png"
-        ]
+        ],
+        "old": []
     },
     "caden": {
-        "count": 5,
+        "count": 12,
         "ref": [
-            "https://kanekos99.github.io/art-archive/img/small/caden_ref.png"
+            "https://kanekos99.github.io/art-archive/img/small/caden_ref.png",
+            "https://kanekos99.github.io/art-archive/img/small/caden_chibi.png"
         ],
         "others": [
-            "https://kanekos99.github.io/art-archive/img/small/allie_caden.png",
             "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/Standee.png",
-            "https://kanekos99.github.io/art-archive/img/small/caden_chibi.png",
+            "https://kanekos99.github.io/art-archive/img/small/allie_caden.png",
+            "https://kanekos99.github.io/art-archive/img/small/blue_2.png",
+            "https://kanekos99.github.io/art-archive/img/small/blue_3.png",
+            "https://kanekos99.github.io/art-archive/img/small/blue_4.png",
+            "https://kanekos99.github.io/art-archive/img/small/blue_6.png",
             "https://kanekos99.github.io/art-archive/img/small/caden_young.png"
+        ],
+        "old": [
+            "https://kanekos99.github.io/art-archive/img/small/moonrise.png",
+            "https://kanekos99.github.io/art-archive/img/small/family.png",
+            "https://kanekos99.github.io/art-archive/img/small/wedding.png"
         ]
     },
     "yuzhen": {
@@ -93,7 +124,8 @@
         "ref": [],
         "others": [
             "https://kanekos99.github.io/art-archive/img/small/third_wheel.png"
-        ]
+        ],
+        "old": []
     },
     "qiu-ye-modern": {
         "count": 2,
@@ -102,13 +134,48 @@
         ],
         "others": [
             "https://kanekos99.github.io/art-archive/img/small/modern-au.png"
-        ]
+        ],
+        "old": []
     },
     "jianqing-modern": {
         "count": 1,
         "ref": [],
         "others": [
             "https://kanekos99.github.io/art-archive/img/small/modern-au.png"
+        ],
+        "old": []
+    },
+    "ailthir": {
+        "count": 1,
+        "ref": [],
+        "others": [
+            "https://kanekos99.github.io/art-archive/img/small/blue_4.png"
+        ],
+        "old": []
+    },
+    "hilda": {
+        "count": 1,
+        "ref": [],
+        "others": [],
+        "old": [
+            "https://kanekos99.github.io/art-archive/img/small/family.png"
+        ]
+    },
+    "solius": {
+        "count": 2,
+        "ref": [],
+        "others": [],
+        "old": [
+            "https://kanekos99.github.io/art-archive/img/small/family.png",
+            "https://kanekos99.github.io/art-archive/img/small/neko_day.png"
+        ]
+    },
+    "elbius": {
+        "count": 1,
+        "ref": [],
+        "others": [],
+        "old": [
+            "https://kanekos99.github.io/art-archive/img/small/family.png"
         ]
     }
 }
