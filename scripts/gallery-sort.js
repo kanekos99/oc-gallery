@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 module.exports = function () {
-  const rawData = fs.readFileSync("./images.json", "utf8");
+  const rawData = fs.readFileSync("./data.json", "utf8");
   const data = JSON.parse(rawData);
   const characters = {};
 
