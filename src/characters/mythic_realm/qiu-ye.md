@@ -9,11 +9,19 @@ basic:
   species: Fox Spirit
   age: 500+ (appears to be in his 20s)
   affiliation: Qinghai
+links:
+  - url: https://toyhou.se/16706013.qiu-ye
+    type: Toyhou.se
+  - url: https://artfight.net/character/1059573.qiu-ye
+    type: ArtFight
+  - url: https://unvale.io/character/33341437-f83e-45e5-b488-8ca1401c2680
+    type: Unvale 
 preview_gallery:
   - https://kanekos99.github.io/gallery/assets/artwork/character_designs/references/fox4.png
   - https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/qiu_ye_card.png
   - https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/smile.png
   - https://kanekos99.github.io/gallery/assets/artwork/original/chibis/design_1.png
+sketchlog_link: https://kanekos.neocities.org/sketchlog/#tag=qiu-ye
 trivia:
   - He likes tofu and all tofu-related food. His favourite is spicy mapo tofu.
   - He has nine tails, but doesn't always show all of them since they take up too much space.

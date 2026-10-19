@@ -94,6 +94,44 @@
                 {% endif %}
               </ul>
             </div>
+            {% if links %}
+            <div class="about-box links-container desktop-only">
+              <div class="accordion" id="links-accordion">
+                <div class="accordion-item links-accordion-item">
+                  <h2 class="accordion-header links-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#links-box"
+                      aria-expanded="true"
+                      aria-controls="links-box"
+                    >
+                      links
+                    </button>
+                  </h2>
+                  <div
+                    id="links-box"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne">
+                    <div class="accordion-body links-accordion-body">
+                      <ul class="about-list links-list">
+                          {% for link in links %}
+                          <li class="about-item links-item">
+                            <i class="fa fa-star me-2 ms-1" aria-hidden="true"></i>
+                            <a 
+                              href="{{ link.url }}"
+                              target="_blank"
+                            >{{ link.type }}</a>
+                          </li>
+                          {%- endfor-%}
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            {% endif %}
           </div>
           {% set storySections = content | getStorySubSections() %}
           <div class="chara-info-container">
@@ -114,34 +152,33 @@
               </div>
             </div>
             <div
-              class="chara-profile-container section-container pb-4"
-              id="profile-container"
-            >
+              class="chara-profile-container section-container"
+              id="profile-container">
               <div class="character-body-container">
                 <div class="accordion" id="introduction-accordion">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button accordion-button-{{ theme }}"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#introduction-box"
-                        aria-expanded="true"
-                        aria-controls="introduction-box"
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button accordion-button-{{ theme }}"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#introduction-box"
+                          aria-expanded="true"
+                          aria-controls="introduction-box"
+                        >
+                          introduction
+                        </button>
+                      </h2>
+                      <div
+                        id="introduction-box"
+                        class="accordion-collapse collapse show"
+                        aria-labelledby="headingOne"
                       >
-                        introduction
-                      </button>
-                    </h2>
-                    <div
-                      id="introduction-box"
-                      class="accordion-collapse collapse show"
-                      aria-labelledby="headingOne"
-                    >
-                      <div class="accordion-body">
-                        {{ content | getSection("introduction") | safe }}
+                        <div class="accordion-body">
+                          {{ content | getSection("introduction") | safe }}
+                        </div>
                       </div>
                     </div>
-                  </div>
                 </div>
               </div>
               <div class="character-body-container">
@@ -396,10 +433,48 @@
                 </div>
               </div>
               {%- endif-%}
+              {% if links %}
+              <div class="character-body-container links-container mobile-only">
+                <div class="accordion" id="links-accordion-mb">
+                  <div class="accordion-item links-accordion-item">
+                    <h2 class="accordion-header links-header">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#links-box-mb"
+                        aria-expanded="true"
+                        aria-controls="links-box-mb"
+                      >
+                        links
+                      </button>
+                    </h2>
+                    <div
+                      id="links-box-mb"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne">
+                      <div class="accordion-body links-accordion-body">
+                        <ul class="about-list links-list">
+                            {% for link in links %}
+                            <li class="about-item links-item">
+                              <i class="fa fa-star me-2 ms-1" aria-hidden="true"></i>
+                              <a 
+                                href="{{ link.url }}"
+                                target="_blank"
+                              >{{ link.type }}</a>
+                            </li>
+                            {%- endfor-%}
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+              {% endif %}             
             </div>
             {% if galleryImages.count >= 5  %}
             <div
-              class="chara-gallery-container section-container pb-4"
+              class="chara-gallery-container section-container"
               id="gallery-container"
               style="display: none"
             >
@@ -479,6 +554,17 @@
                           </div>
                           {% endfor %}
                         </div>
+                        {% if sketchlog_link  %}
+                        <div class="gallery-button-row">
+                          <a href="{{ sketchlog_link }}" class="gallery-btn mt-2">
+                            view latest art
+                            <i
+                              class="fa fa-arrow-circle-right ms-2"
+                              aria-hidden="true"
+                            ></i>
+                          </a>
+                        </div>
+                        {%- endif-%}
                       </div>
                     </div>
                   </div>
@@ -535,7 +621,7 @@
             {% set storySections = content | getStorySubSections() %}
             {% if storySections | length > 0 %}
             <div
-              class="chara-story-container section-container pb-4"
+              class="chara-story-container section-container"
               id="story-container"
               style="display: none"
             >
@@ -570,8 +656,16 @@
               {% endfor %}
             </div>
             {% endif %}
+            <div class="footer-container pb-3">
+              <button
+                class="sidebar-btn"
+                onclick="window.scrollTo({top:0,behavior:'smooth'})"
+              >
+                <i class="fa fa-arrow-up me-2" aria-hidden="true"></i>
+                <span>top</span>
+              </button>
+            </div>
           </div>
-        </div>
       </div>
     </div>
 
