@@ -352,7 +352,7 @@
 }
 
 #trivia-box .accordion-body {
-  padding: 1rem 0.5rem 0rem 0.5rem;
+  padding: 0.5rem 0.5rem 0rem 0.5rem;
 }
 
 .trivia-list li {
@@ -435,7 +435,7 @@
 #gallery-box .accordion-body,
 #references-box .accordion-body,
 #art-box .accordion-body,
-#gift-art-box .accordion-body {
+#gift-box .accordion-body {
   padding: 10px 5px 0px 5px;
   margin-bottom: 0px;
 }
@@ -821,7 +821,7 @@ a.chara-body-row-item {
   }
 
   .trivia-list {
-    padding-left: 20px;
+    padding-left: 25px;
   }
 
   .nav-info-buttons {
@@ -844,7 +844,7 @@ a.chara-body-row-item {
   }
 
   .fa-ul {
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .gallery-btn {
