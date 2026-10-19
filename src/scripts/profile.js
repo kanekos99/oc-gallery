@@ -8,6 +8,8 @@ const profileButton = document.getElementById("profile-nav-button");
 const galleryButton = document.getElementById("gallery-nav-button");
 const storyButton = document.getElementById("story-nav-button");
 
+const modalCaption = document.getElementById("modal-image-caption");
+
 function handleHashChange() {
   const currentHash = window.location.hash.slice(1);
   if (isValidHash(currentHash)) {
@@ -76,10 +78,28 @@ const modalImg = document.getElementById("modal-image");
 function showImage(image) {
   modalImg.style.display = "none";
   modalImg.src = image.src;
+  showImageCredits(image);
 
   modalImg.onload = function () {
     modalImg.style.display = "block";
   };
+}
+
+function showImageCredits(image) {
+  if (image.dataset.credit) {
+    console.log(image.dataset.credit);
+    console.log(image.dataset.creditLink);
+    const modalCreditLink = 
+    `
+    <a href="${image.dataset.creditLink}" target="_blank">
+      ${image.dataset.credit}
+    </a>
+    `
+    modalCaption.innerHTML = image.dataset.artType + " by " + modalCreditLink;
+    modalCaption.style.display = "block";
+  } else {
+    modalCaption.style.display = "none";
+  }
 }
 
 function showNextOrPrevImg(direction) {

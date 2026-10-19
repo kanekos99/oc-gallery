@@ -108,3 +108,20 @@
 .modal-nav-container {
   background-color: black;
 }
+
+#modal-image-caption {
+  margin-bottom: 0px;
+  font-size: 1rem;
+  text-align: right;
+  line-height: 1;
+}
+
+#modal-image-caption a {
+  color: var(--heading-color);
+  font-weight: 900;
+  text-decoration: 1px dotted underline;
+}
+
+#modal-image-caption a:hover {
+  text-decoration: 2px solid underline;
+}

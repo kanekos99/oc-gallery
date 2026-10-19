@@ -1,5 +1,6 @@
 const markdownIt = require("markdown-it");
 const gallerySort = require("./scripts/gallery-sort");
+const giftSort = require("./scripts/gift-sort");
 const md = new markdownIt({ html: true });
 
 module.exports = function (eleventyConfig) {
@@ -9,8 +10,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/scripts");
 
   eleventyConfig.watchIgnores.add("./src/_data/sorted_images.json");
+  eleventyConfig.watchIgnores.add("./src/_data/gift_images.json");
   eleventyConfig.on("eleventy.before", async () => {
     gallerySort();
+    giftSort();
   });
 
   eleventyConfig.addCollection("worlds", function (collectionApi) {

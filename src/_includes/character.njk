@@ -13,8 +13,8 @@
 />
 
     <link rel="stylesheet" type="text/css" href="{{ '/styles/common.css' | url }}"/>
-    <link rel="stylesheet" type="text/css" href="{{ '/styles/modal.css' | url }}"/>
     <link rel="stylesheet" type="text/css" href="{{ '/styles/character.css' | url }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ '/styles/modal.css' | url }}"/>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -485,6 +485,51 @@
                 </div>
               </div>
               {%- endif-%}
+              {% set giftImages = gift_images[page.fileSlug] %}
+              {% if giftImages.length > 0  %}
+              <div class="character-body-container">
+                <div class="accordion" id="gift-accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button accordion-button-{{ theme }}"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#gift-box"
+                        aria-expanded="true"
+                        aria-controls="gift-box"
+                      >
+                        gift art & commissions
+                      </button>
+                    </h2>
+                    <div
+                      id="gift-box"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                        <div class="character-body-row gallery-row">
+                          {% for image in giftImages %}
+                          <div class="chara-gallery-img-thumbnail">
+                            <img
+                              src="{{ image.src }}"
+                              loading="lazy"
+                              onclick="showImage(this)"
+                              data-credit="{{ image.credit }}"
+                              data-credit-link="{{ image.credit_link }}"
+                              data-art-type="{{ image.type }}"
+                              data-bs-toggle="modal"
+                              data-bs-target="#galleryModal"
+                            />
+                          </div>
+                          {% endfor %}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {%- endif-%}
             </div>
             {%- endif-%}
             {% set storySections = content | getStorySubSections() %}
@@ -555,6 +600,7 @@
           <div class="d-flex flex-row justify-content-center modal-row">
             <div class="modal-image-container">
               <img src="" class="modal-image img-fluid" id="modal-image"/>
+              <p id="modal-image-caption"></p>
             </div>
           </div>
         </div>
