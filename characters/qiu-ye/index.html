@@ -13,8 +13,8 @@
 />
 
     <link rel="stylesheet" type="text/css" href="/oc-gallery/styles/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/oc-gallery/styles/modal.css"/>
     <link rel="stylesheet" type="text/css" href="/oc-gallery/styles/character.css"/>
+    <link rel="stylesheet" type="text/css" href="/oc-gallery/styles/modal.css"/>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -713,6 +713,75 @@
                     </div>
                   </div>
                 </div>
+              </div>
+              
+              <div class="character-body-container">
+                <div class="accordion" id="gift-accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button accordion-button-orange"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#gift-box"
+                        aria-expanded="true"
+                        aria-controls="gift-box"
+                      >
+                        gift art & commissions
+                      </button>
+                    </h2>
+                    <div
+                      id="gift-box"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                        <div class="character-body-row gallery-row">
+                          
+                          <div class="chara-gallery-img-thumbnail">
+                            <img
+                              src="https://kanekos99.github.io/art-archive/gift_comms/small/Cimery.png"
+                              loading="lazy"
+                              onclick="showImage(this)"
+                              data-credit="Cimery"
+                              data-credit-link="https://toyhou.se/Cimery"
+                              data-art-type="Commission"
+                              data-bs-toggle="modal"
+                              data-bs-target="#galleryModal"
+                            />
+                          </div>
+                          
+                          <div class="chara-gallery-img-thumbnail">
+                            <img
+                              src="https://kanekos99.github.io/art-archive/gift_comms/small/Baquu.png"
+                              loading="lazy"
+                              onclick="showImage(this)"
+                              data-credit="Baquu"
+                              data-credit-link="https://toyhou.se/Baquu"
+                              data-art-type="ArtFight Attack"
+                              data-bs-toggle="modal"
+                              data-bs-target="#galleryModal"
+                            />
+                          </div>
+                          
+                          <div class="chara-gallery-img-thumbnail">
+                            <img
+                              src="https://kanekos99.github.io/art-archive/gift_comms/small/KaishiTQU.png"
+                              loading="lazy"
+                              onclick="showImage(this)"
+                              data-credit="KaishiTQU"
+                              data-credit-link="https://artfight.net/~KaishiTQU"
+                              data-art-type="ArtFight Attack"
+                              data-bs-toggle="modal"
+                              data-bs-target="#galleryModal"
+                            />
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div></div>
             
             <div
@@ -786,6 +855,7 @@
           <div class="d-flex flex-row justify-content-center modal-row">
             <div class="modal-image-container">
               <img src="" class="modal-image img-fluid" id="modal-image"/>
+              <p id="modal-image-caption"></p>
             </div>
           </div>
         </div>
