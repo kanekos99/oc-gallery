@@ -1,8 +1,10 @@
 {
     "qiu-ye": {
-        "count": 16,
+        "count": 18,
         "ref": [
-            "https://kanekos99.github.io/gallery/assets/artwork/character_designs/references/fox4.png"
+            "https://kanekos99.github.io/gallery/assets/artwork/character_designs/references/fox4.png",
+            "https://f2.toyhou.se/file/f2-toyhou-se/images/50957908_umm0nZpfVQbcsHd.png",
+            "https://f2.toyhou.se/file/f2-toyhou-se/images/83667588_MlzzJffRveFZ8dn.png"
         ],
         "others": [
             "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/qiu_ye_card.png",
@@ -90,6 +92,22 @@
         "ref": [],
         "others": [
             "https://f2.toyhou.se/file/f2-toyhou-se/images/95812182_WsPPZa3xxIUds7a.png"
+        ]
+    },
+    "qiu-ye-modern": {
+        "count": 2,
+        "ref": [
+            "https://f2.toyhou.se/file/f2-toyhou-se/images/86838318_kMlItOCYqX4MDgF.png"
+        ],
+        "others": [
+            "https://f2.toyhou.se/file/f2-toyhou-se/images/86942150_DkikGkW0p154wps.png"
+        ]
+    },
+    "jianqing-modern": {
+        "count": 1,
+        "ref": [],
+        "others": [
+            "https://f2.toyhou.se/file/f2-toyhou-se/images/86942150_DkikGkW0p154wps.png"
         ]
     }
 }
