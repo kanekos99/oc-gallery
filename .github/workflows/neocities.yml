@@ -1,0 +1,22 @@
+name: "Deploy to Neocities"
+on:
+  push:
+    branches:
+      - main 
+jobs:
+  deploy:
+    name: "Deploy to Neocities"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4 
+      - uses: actions/setup-node@v3 
+        with:
+          node-version: "20"
+          cache: "npm" 
+      - run: npm ci 
+      - run: npm run neocities 
+      - uses: bcomnes/deploy-to-neocities@v1 
+        with: 
+          api_token: ${{ secrets.NEOCITIES_TOKEN }}
+          dist_dir: "public" 
+          cleanup: false 
