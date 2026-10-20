@@ -3,7 +3,6 @@ name: Yuzhen
 id: yuzhen
 image: /images/yuzhen-hanahaki.png
 series: A Dance of Autumn Leaves
-tags: ["yuzhen"]
 au: Hanahaki AU
 permalink: /characters/yuzhen/hanahaki-au/
 theme: orange

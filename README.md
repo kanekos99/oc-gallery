@@ -6,6 +6,7 @@ another attempt at making an OC website
 (Because I will forget if I don't keep track of this)
 
 - name
+- id (used to track AUs mostly)
 - image (profile picture)
 - series
 - theme (color theme)

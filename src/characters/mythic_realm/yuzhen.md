@@ -3,7 +3,6 @@ name: Yuzhen
 id: yuzhen
 image: /images/Yuzhen.png
 series: A Dance of Autumn Leaves
-tags: ["yuzhen"]
 theme: orange
 basic:
   fullname: Lin Yuzhen (林玉珍)

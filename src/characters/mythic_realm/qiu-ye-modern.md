@@ -3,7 +3,6 @@ name: Qiu Ye
 id: qiu-ye
 image: /images/qiu-ye-modern.png
 series: A Dance of Autumn Leaves
-tags: ["qiu-ye"]
 au: Modern AU
 permalink: /characters/qiu-ye/modern-au/
 theme: orange

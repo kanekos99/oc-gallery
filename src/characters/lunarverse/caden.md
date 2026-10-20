@@ -3,7 +3,6 @@ name: Caden
 id: caden
 image: /images/caden_pfp.png
 series: Lunarverse
-tags: ["caden"]
 theme: lavender
 basic:
   fullname: Caden

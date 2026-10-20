@@ -3,7 +3,6 @@ name: Jianqing
 id: jianqing
 image: /images/Jianqing-hanahaki.png
 series: A Dance of Autumn Leaves
-tags: ["jianqing"]
 au: Hanahaki AU
 permalink: /characters/jianqing/hanahaki-au/
 theme: orange

@@ -1,8 +1,8 @@
 ---
 name: Ailithir
+id: ailithir
 image: /images/allie_pfp.png
 series: Lunarverse
-tags: ["ailithir"]
 theme: lavender
 basic:
   fullname: Ailithir
