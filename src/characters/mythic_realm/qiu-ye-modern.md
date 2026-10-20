@@ -14,12 +14,14 @@ basic:
   age: 35
   affiliation: Qinghai Technologies
 preview_gallery:
-  - https://f2.toyhou.se/file/f2-toyhou-se/images/86838318_kMlItOCYqX4MDgF.png
-  - https://f2.toyhou.se/file/f2-toyhou-se/images/86942150_DkikGkW0p154wps.png
-alternatives:
-  - name: Original
-    link: /oc-gallery/characters/qiu-ye
-    icon: /images/qiuye.png
+  - https://kanekos99.github.io/art-archive/img/small/secretary-qiu.png
+  - https://kanekos99.github.io/art-archive/img/small/modern-au.png
+relationships:
+  - name: Jianqing
+    icon: /images/jianqing-modern.png
+    link: /oc-gallery/characters/jianqing/modern-au
+    status: Boss/ Lover
+    description: Qiu Ye finds him silly and cute and easy to manipulate. Okay, so maybe he has feelings for the guy but he likes to keep things casual or it would be kind of cringe otherwise.
 ---
 
 <!-- section: introduction -->

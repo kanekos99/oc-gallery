@@ -20,6 +20,11 @@
     "type": "illustration"
   },
   {
+    "image": "https://kanekos99.github.io/art-archive/img/small/dream_titlescreen.png",
+    "tags": "qiu-ye, jianqing",
+    "type": "illustration"
+  },
+  {
     "image": "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/smile.png",
     "tags": "qiu-ye",
     "type": "illustration"
@@ -68,21 +73,6 @@
     "image": "https://kanekos99.github.io/art-archive/img/small/egg.png",
     "tags": "qiu-ye, ruilan",
     "type": "illustration"
-  },
-  {
-    "image": "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/jq_bb.png",
-    "tags": "jianqing, ruilan",
-    "type": "illustration"
-  },
-  {
-    "image": "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/Jianqing_Chibi_Doodle.png",
-    "tags": "jianqing",
-    "type": "chibi"
-  },
-  {
-    "image": "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/design_2.png",
-    "tags": "jianqing",
-    "type": "chibi"
   },
   {
     "image": "https://kanekos99.github.io/art-archive/img/small/meme.png",
@@ -158,6 +148,21 @@
     "image": "https://kanekos99.github.io/gallery/assets/artwork/sketches/jianqing.png",
     "tags": "jianqing",
     "type": "ref"
+  },
+  {
+    "image": "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/jq_bb.png",
+    "tags": "jianqing, ruilan",
+    "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/Jianqing_Chibi_Doodle.png",
+    "tags": "jianqing",
+    "type": "chibi"
+  },
+  {
+    "image": "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/design_2.png",
+    "tags": "jianqing",
+    "type": "chibi"
   },
   {
     "image": "https://kanekos99.github.io/art-archive/img/small/Fox.png",
@@ -348,5 +353,45 @@
     "image": "https://kanekos99.github.io/art-archive/img/small/qiuye-dance-ref.png",
     "tags": "qiu-ye",
     "type": "ref"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/2p_allie_caden.png",
+    "tags": "ailithir-2p, caden-2p",
+    "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/2p_allie.png",
+    "tags": "ailithir-2p",
+    "type": "sketch"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/magic_girl.png",
+    "tags": "ailithir-fem",
+    "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/indigo_ailia.png",
+    "tags": "ailithir-fem",
+    "type": "old"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/ink_aila.png",
+    "tags": "ailithir-fem",
+    "type": "old"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/inktober_aila.png",
+    "tags": "ailithir-fem",
+    "type": "old"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/sketch_aila.png",
+    "tags": "ailithir-fem",
+    "type": "old"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/old_sketch_aila.png",
+    "tags": "ailithir-fem",
+    "type": "old"
   }
 ]

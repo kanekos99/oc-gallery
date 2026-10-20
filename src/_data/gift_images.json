@@ -17,6 +17,54 @@
             "credit": "KaishiTQU",
             "credit_link": "https://artfight.net/~KaishiTQU",
             "type": "ArtFight Attack"
+        },
+        {
+            "src": "https://kanekos99.github.io/art-archive/gift_comms/small/VEXshelf.png",
+            "credit": "VEXshelf",
+            "credit_link": "https://artfight.net/~VEXshelf",
+            "type": "ArtFight Attack"
+        },
+        {
+            "src": "https://kanekos99.github.io/art-archive/gift_comms/small/iSoulatte.png",
+            "credit": "iSoulatte",
+            "credit_link": "https://www.instagram.com/iSoulatte/",
+            "type": "ArtFight Attack"
+        },
+        {
+            "src": "https://kanekos99.github.io/art-archive/gift_comms/small/kiyo.png",
+            "credit": "kiyo",
+            "credit_link": "https://toyhou.se/kiyo",
+            "type": "ArtFight Attack"
+        },
+        {
+            "src": "https://kanekos99.github.io/art-archive/gift_comms/small/riceyy.png",
+            "credit": "Ricewix",
+            "credit_link": "https://artfight.net/~Ricewix",
+            "type": "ArtFight Attack"
+        },
+        {
+            "src": "https://kanekos99.github.io/art-archive/gift_comms/small/kiyo_2.png",
+            "credit": "kiyo",
+            "credit_link": "https://toyhou.se/kiyo",
+            "type": "ArtFight Attack"
+        },
+        {
+            "src": "https://kanekos99.github.io/art-archive/gift_comms/small/ThyatraDayatora.png",
+            "credit": "ThyatraDayatora",
+            "credit_link": "https://artfight.net/~ThyatraDayatora",
+            "type": "ArtFight Attack"
+        },
+        {
+            "src": "https://kanekos99.github.io/art-archive/gift_comms/small/Cimery_2.png",
+            "credit": "Cimery",
+            "credit_link": "https://toyhou.se/Cimery",
+            "type": "ArtFight Attack"
+        },
+        {
+            "src": "https://kanekos99.github.io/art-archive/gift_comms/small/nikkicool.png",
+            "credit": "nikkicool",
+            "credit_link": "https://artfight.net/~nikkicool",
+            "type": "ArtFight Attack"
         }
     ],
     "ailithir": [
@@ -80,6 +128,44 @@
             "src": "https://kanekos99.github.io/art-archive/gift_comms/small/Softycloud.png",
             "credit": "Softycloud",
             "credit_link": "https://artfight.net/~Softycloud",
+            "type": "ArtFight Attack"
+        }
+    ],
+    "jianqing": [
+        {
+            "src": "https://kanekos99.github.io/art-archive/gift_comms/small/Chalcedonyy.png",
+            "credit": "Chalcedonyy",
+            "credit_link": "https://toyhou.se/Chalcedonyy",
+            "type": "ArtFight Attack"
+        },
+        {
+            "src": "https://kanekos99.github.io/art-archive/gift_comms/small/reywinteru.png",
+            "credit": "reywinteru",
+            "credit_link": "https://artfight.net/~reywinteru",
+            "type": "ArtFight Attack"
+        },
+        {
+            "src": "https://kanekos99.github.io/art-archive/gift_comms/small/Cimery_3.png",
+            "credit": "Cimery",
+            "credit_link": "https://toyhou.se/Cimery",
+            "type": "ArtFight Attack"
+        },
+        {
+            "src": "https://kanekos99.github.io/art-archive/gift_comms/small/ChibiCorporation.png",
+            "credit": "ChibiCorporation",
+            "credit_link": "https://toyhou.se/ChibiCorporation",
+            "type": "ArtFight Attack"
+        },
+        {
+            "src": "https://kanekos99.github.io/art-archive/gift_comms/small/VEXshelf.png",
+            "credit": "VEXshelf",
+            "credit_link": "https://artfight.net/~VEXshelf",
+            "type": "ArtFight Attack"
+        },
+        {
+            "src": "https://kanekos99.github.io/art-archive/gift_comms/small/Bonepennies.png",
+            "credit": "Bonepennies",
+            "credit_link": "https://artfight.net/~Bonepennies",
             "type": "ArtFight Attack"
         }
     ]

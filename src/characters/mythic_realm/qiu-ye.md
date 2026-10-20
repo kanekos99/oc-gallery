@@ -58,7 +58,7 @@ relationships:
     icon: /images/Yuzhen.png
     link: /oc-gallery/characters/yuzhen
     status: Close Friend
-    description: Despite all his teasing, Qiu Ye sees Yuzhen as a reliable friend and cares very much for Yuzhen's wellbeing. Qiu Ye suspects Yuzhen has a small crush on Jianqing, although he isn't entirely sure how serious it is, so it doesn't bother him.
+    description: Despite all his teasing, Qiu Ye sees Yuzhen as a reliable friend and cares very much for Yuzhen's wellbeing. Qiu Ye suspects Yuzhen has a small crush on Jianqing, although he isn't entirely sure how serious it is. But since he likes Yuzhen, he's up for sharing Jianqing with him.
 featured:
   - name: Fleeting Dream
     type: game
@@ -68,13 +68,14 @@ featured:
     type: game
     link: https://kanekos.neocities.org/dressup/
     icon: https://kanekos.neocities.org/games/assets/dress_up.png
-alternatives:
-  - name: Modern AU
-    link: /oc-gallery/characters/qiu-ye/modern-au
-    icon: /images/qiu-ye-modern.png
-  - name: Hanahaki AU
-    link: /oc-gallery/characters/qiu-ye/hanahaki-au
-    icon: /images/qiuye-hanahaki.png
+  - name: Tribute
+    type: comic
+    link: https://kanekos.neocities.org/gallery/#comics
+    icon: https://kanekos99.github.io/gallery/assets/artwork/comics/xue_hua/Comic_Page_1.png
+  - name: Plum Blossoms in the Snow
+    type: comic
+    link: https://kanekos.neocities.org/gallery/#comics
+    icon: https://kanekos99.github.io/gallery/assets/artwork/comics/snowy_day/snow1.png
 ---
 
 <!-- section: introduction -->

@@ -1,6 +1,6 @@
 {
     "qiu-ye": {
-        "count": 27,
+        "count": 28,
         "ref": [
             "https://kanekos99.github.io/gallery/assets/artwork/character_designs/references/fox4.png",
             "https://kanekos99.github.io/art-archive/img/small/Fox.png",
@@ -11,6 +11,7 @@
         ],
         "others": [
             "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/qiu_ye_card.png",
+            "https://kanekos99.github.io/art-archive/img/small/dream_titlescreen.png",
             "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/smile.png",
             "https://kanekos99.github.io/art-archive/img/small/qiu-ye-headshot.png",
             "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/qiu_ye_11.gif",
@@ -67,30 +68,31 @@
             "https://kanekos99.github.io/art-archive/img/small/allie_doodle_old.png"
         ]
     },
+    "jianqing": {
+        "count": 9,
+        "ref": [
+            "https://kanekos99.github.io/art-archive/img/small/jq_ref.png",
+            "https://kanekos99.github.io/gallery/assets/artwork/sketches/jianqing.png"
+        ],
+        "others": [
+            "https://kanekos99.github.io/art-archive/img/small/dream_titlescreen.png",
+            "https://kanekos99.github.io/art-archive/img/small/qiu-ye-lantern.png",
+            "https://kanekos99.github.io/art-archive/img/small/meme.png",
+            "https://kanekos99.github.io/art-archive/img/small/third_wheel.png",
+            "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/jq_bb.png",
+            "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/Jianqing_Chibi_Doodle.png",
+            "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/design_2.png"
+        ],
+        "old": []
+    },
     "ruilan": {
         "count": 4,
         "ref": [],
         "others": [
             "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/qiu_ye_8.png",
             "https://kanekos99.github.io/art-archive/img/small/egg.png",
-            "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/jq_bb.png",
-            "https://kanekos99.github.io/art-archive/img/small/meme.png"
-        ],
-        "old": []
-    },
-    "jianqing": {
-        "count": 8,
-        "ref": [
-            "https://kanekos99.github.io/art-archive/img/small/jq_ref.png",
-            "https://kanekos99.github.io/gallery/assets/artwork/sketches/jianqing.png"
-        ],
-        "others": [
-            "https://kanekos99.github.io/art-archive/img/small/qiu-ye-lantern.png",
-            "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/jq_bb.png",
-            "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/Jianqing_Chibi_Doodle.png",
-            "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/design_2.png",
             "https://kanekos99.github.io/art-archive/img/small/meme.png",
-            "https://kanekos99.github.io/art-archive/img/small/third_wheel.png"
+            "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/jq_bb.png"
         ],
         "old": []
     },
@@ -234,5 +236,36 @@
             "https://kanekos99.github.io/art-archive/img/small/mini_zine_8.png"
         ],
         "old": []
+    },
+    "ailithir-2p": {
+        "count": 2,
+        "ref": [],
+        "others": [
+            "https://kanekos99.github.io/art-archive/img/small/2p_allie_caden.png",
+            "https://kanekos99.github.io/art-archive/img/small/2p_allie.png"
+        ],
+        "old": []
+    },
+    "caden-2p": {
+        "count": 1,
+        "ref": [],
+        "others": [
+            "https://kanekos99.github.io/art-archive/img/small/2p_allie_caden.png"
+        ],
+        "old": []
+    },
+    "ailithir-fem": {
+        "count": 6,
+        "ref": [],
+        "others": [
+            "https://kanekos99.github.io/art-archive/img/small/magic_girl.png"
+        ],
+        "old": [
+            "https://kanekos99.github.io/art-archive/img/small/indigo_ailia.png",
+            "https://kanekos99.github.io/art-archive/img/small/ink_aila.png",
+            "https://kanekos99.github.io/art-archive/img/small/inktober_aila.png",
+            "https://kanekos99.github.io/art-archive/img/small/sketch_aila.png",
+            "https://kanekos99.github.io/art-archive/img/small/old_sketch_aila.png"
+        ]
     }
 }

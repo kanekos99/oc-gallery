@@ -1,10 +1,10 @@
 ---
 name: Jianqing
 id: jianqing
-image: /images/Jianqing-hanahaki.png
+image: /images/Jianqing-modern.png
 series: A Dance of Autumn Leaves
-au: Hanahaki AU
-permalink: /characters/jianqing/hanahaki-au/
+au: Modern AU
+permalink: /characters/jianqing/modern-au/
 theme: orange
 basic:
   fullname: Zheng Jianqing (郑鉴清)
@@ -13,37 +13,31 @@ basic:
   age: 27
   affiliation: Qinghai Technologies
 preview_gallery:
-  - https://kanekos99.github.io/art-archive/img/small/mini_zine_1.png
-  - https://kanekos99.github.io/art-archive/img/small/mini_zine_2.png
-  - https://kanekos99.github.io/art-archive/img/small/mini_zine_3.png
-  - https://kanekos99.github.io/art-archive/img/small/mini_zine_4.png
+  - https://kanekos99.github.io/art-archive/img/small/modern-au.png
 relationships:
-  - name: Yuzhen
-    icon: /images/yuzhen-hanahaki.png
-    link: /oc-gallery/characters/yuzhen/hanahaki-au
-    status: Bodyguard/ Friend
-    description: Yuzhen is Jianqing's bodyguard but Jianqing also sees him as a friend. Well, at least he cares more about his employee's wellbeing than the average boss... He tries to get Yuzhen to open up to him more but doesn't want to come on too strong in case he scares Yuzhen. It is ambiguous as to whether he has any romantic feelings for Yuzhen. Maybe he isn't sure himself and doesn't want to think about it because he is too obsessed with Qiu Ye.
   - name: Qiu Ye
-    icon: /images/qiuye-hanahaki.png
-    link: /oc-gallery/characters/qiu-ye/hanahaki-au
-    status: Secretary/ Boyfriend/ Fiancé
-    description: Qiu Ye is Jianqing's secretary that he is also dating and engaged to. They have a scandalous and steamy office romance probably. Their relationship is basically the same as it is in the normal Modern AU. Jianqing is down bad for him and will let him get away with almost anything.
-alternatives:
-  - name: Original
-    link: /oc-gallery/characters/jianqing
-    icon: /images/Jianqing.png
+    icon: /images/qiu-ye-modern.png
+    link: /oc-gallery/characters/qiu-ye/modern-au
+    status: Secretary/ Lover
+    description: Jianqing adores him and is so infatuated with him that he lets him get away with almost anything. Even when Jianqing appears to be mad, he's never actually angry at Qiu Ye. Being the domineering boss is just a fun roleplay for him and he's sure Qiu Ye likes it as well. But deep down, he is very scared of losing Qiu Ye again and is willing to do anything to keep Qiu Ye by his side.
 ---
 
 <!-- section: introduction -->
 
-<div class="alert alert-warning"><b>Warning:</b> Mildly suggestive language</div>
+Jianqing is the rich and handsome CEO of a tech company called Qinghai Technologies. They um... \*spins wheel\* ...make water purifiers. He inherited the company at the tender age of 27 after his father's untimely demise.<br><br>
 
-Jianqing is the ~~霸总~~ CEO of a bullshit tech company called Qinghai Technologies. He probably spends more time banging [his secretary](/oc-gallery/characters/qiu-ye/hanahaki-au) than doing his actual job.
+When he was 18 years old, he dropped out of college and ran away from home to be a bum because he was too stressed out by his family's expectations blah blah blah. He ended up homeless and and alone on the streets. He was later picked up by a male host by the name of [Qiu Ye](/oc-gallery/characters/qiu-ye/modern-au), who offered him a place to stay.<br><br>
 
-<hr class="dotted-divider">
+He lived together with Qiu Ye for three years and fell in love with him. The two of them became involved in a casual relationship. However, shortly after that, Qiu Ye suddenly disappeared without any warning.<br><br>
 
-This is a dumb AU that I randomly came up with during a zine-making workshop. The setting here is basically the same as the [Modern AU](/oc-gallery/characters/qiu-ye/modern-au) except for the fact that the Hanahaki Disease exists. I made a separate page for this AU because I did not want to introduce the existence of the Hanahaki Disease into the regular Modern AU.<br><br>
+Heartbroken, Jianqing returned home with his tail between his legs and vowed to become a rich and successful billionaire so that he can track down his missing boyfriend.<br><br>
 
-Just read the comic below...<br><br> 
+Right after he was officially enstated as the CEO of Qinghai Technologies, Jianqing suddenly received an unexpected application for the position of his personal secretary. The applicant turned out to be none other than Qiu Ye. Jianqing immediately agreed to hire him.<br><br>
 
-_(Note: Click on view full gallery to see the whole thing)_
+Qiu Ye was missing for six years, but he refused to tell Jianqing what happened to him, feigning ignorance and claiming that he had to deal with some vague family matters. Later, Jianqing also found out that Qiu Ye now had a six year old son by the name of Qiu Zhi, and Qiu Ye claimed he did not know who the other parent was.<br><br>
+
+Still, being the simp that he was, Jianqing decided not to pursue the matter and resumed his relationship with Qiu Ye, even offering to be his son's stepfather. For some time, he lived blissfully unaware of the truth.<br><br> 
+
+Qiu Ye was actually a spy sent by a rival company to steal corporate secrets from him.<br><br> 
+
+(But he also did genuinely have feelings for Jianqing and he only agreed to be a spy because the CEO of the rival company, who happened to be Jianqing's older half-brother, was holding his son hostage. Or something along those lines.) 

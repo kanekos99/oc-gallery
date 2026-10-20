@@ -6,7 +6,7 @@
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy --pathprefix 'oc-gallery'",
-    "neocities": "cross-env NODE_ENV=neocities eleventy --pathprefix 'characters' && rimraf public/oc-gallery/images"
+    "neocities": "cross-env NODE_ENV=neocities eleventy --pathprefix 'oc-gallery'"
   },
   "keywords": [],
   "author": "",

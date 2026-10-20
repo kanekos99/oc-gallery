@@ -28,10 +28,6 @@ relationships:
     link: /oc-gallery/characters/qiu-ye/hanahaki-au
     status: Secretary/ Boyfriend/ Fiancé
     description: Qiu Ye is Jianqing's secretary that he is also dating and engaged to. They have a scandalous and steamy office romance probably. Their relationship is basically the same as it is in the normal Modern AU. Jianqing is down bad for him and will let him get away with almost anything.
-alternatives:
-  - name: Original
-    link: /oc-gallery/characters/jianqing
-    icon: /images/Jianqing.png
 ---
 
 <!-- section: introduction -->
@@ -42,7 +38,7 @@ Jianqing is the ~~霸总~~ CEO of a bullshit tech company called Qinghai Technol
 
 <hr class="dotted-divider">
 
-This is a dumb AU that I randomly came up with during a zine-making workshop. The setting here is basically the same as the [Modern AU](/oc-gallery/characters/qiu-ye/modern-au) except for the fact that the Hanahaki Disease exists. I made a separate page for this AU because I did not want to introduce the existence of the Hanahaki Disease into the regular Modern AU.<br><br>
+This is a dumb AU that I randomly came up with during a zine-making workshop. The setting here is basically the same as the [Modern AU](/oc-gallery/characters/qiu-ye/modern-au) except for the fact that the Hanahaki Disease exists. I made a separate page for this AU because I did not want to introduce the existence of the Hanahaki Disease into the normal Modern AU.<br><br>
 
 Just read the comic below...<br><br> 
 

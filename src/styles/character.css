@@ -459,11 +459,16 @@
 .chara-row-item-title h2 {
   font-size: 1rem;
   text-align: center;
+  margin: auto;
   margin-bottom: 5px;
   margin-top: 5px;
   font-weight: 900;
   opacity: 0.8;
   text-decoration: dotted 2px var(--label-color) underline;
+  text-overflow: ellipsis;
+  width: 120px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .chara-body-row-item span {

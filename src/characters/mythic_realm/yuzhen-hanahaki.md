@@ -28,10 +28,6 @@ relationships:
     link: /oc-gallery/characters/qiu-ye/hanahaki-au
     status: Colleague/ Friend
     description: Yuzhen's colleague and Jianqing's secretary (whom Jianqing is also dating/ engaged to). Yuzhen finds him annoying but somehow, they are still friends and they have lunch together every day. Yuzhen isn't jealous of Qiu Ye's relationship with Jianqing because he doesn't think he has any chance with Jianqing.
-alternatives:
-  - name: Original
-    link: /oc-gallery/characters/yuzhen
-    icon: /images/Yuzhen.png
 ---
 
 <!-- section: introduction -->
@@ -40,7 +36,7 @@ Yuzhen is a bodyguard who is in love with his boss, [Jianqing](/oc-gallery/chara
 
 <hr class="dotted-divider">
 
-This is a dumb AU that I randomly came up with during a zine-making workshop. The setting here is basically the same as the [Modern AU](/oc-gallery/characters/qiu-ye/modern-au) except for the fact that the Hanahaki Disease exists. I made a separate page for this AU because I did not want to introduce the existence of the Hanahaki Disease into the regular Modern AU.<br><br>
+This is a dumb AU that I randomly came up with during a zine-making workshop. The setting here is basically the same as the [Modern AU](/oc-gallery/characters/qiu-ye/modern-au) except for the fact that the Hanahaki Disease exists. I made a separate page for this AU because I did not want to introduce the existence of the Hanahaki Disease into the normal Modern AU.<br><br>
 
 Just read the comic below...<br><br> 
 

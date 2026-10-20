@@ -8,6 +8,7 @@ permalink: /characters/qiu-ye/hanahaki-au/
 theme: orange
 basic:
   fullname: Qiu Ye (秋叶)
+  chara_title: Secretary Qiu
   gender: Male
   species: Fox Spirit
   age: 35
@@ -28,10 +29,6 @@ relationships:
     link: /oc-gallery/characters/yuzhen/hanahaki-au
     status: Colleague/ Friend
     description: Qiu Ye teases Yuzhen for only having salad every day, but they still end up sitting together at lunch anyway. Both of them work directly under Jianqing so naturally they cross paths a lot. Qiu Ye thinks Yuzhen is obssessed with Jianqing and frequently jokes about him having a crush, unaware of how serious Yuzhen's feelings are.
-alternatives:
-  - name: Original
-    link: /oc-gallery/characters/qiu-ye
-    icon: /images/qiuye.png
 ---
 
 <!-- section: introduction -->
@@ -42,7 +39,7 @@ Qiu Ye is a super resourceful and totally responsible and not at all unprofessio
 
 <hr class="dotted-divider">
 
-This is a dumb AU that I randomly came up with during a zine-making workshop. The setting here is basically the same as the [Modern AU](/oc-gallery/characters/qiu-ye/modern-au) except for the fact that the Hanahaki Disease exists. I made a separate page for this AU because I did not want to introduce the existence of the Hanahaki Disease into the regular Modern AU.<br><br>
+This is a dumb AU that I randomly came up with during a zine-making workshop. The setting here is basically the same as the [Modern AU](/oc-gallery/characters/qiu-ye/modern-au) except for the fact that the Hanahaki Disease exists. I made a separate page for this AU because I did not want to introduce the existence of the Hanahaki Disease into the normal Modern AU.<br><br>
 
 Just read the comic below...<br><br> 
 

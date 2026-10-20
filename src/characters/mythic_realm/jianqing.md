@@ -21,6 +21,7 @@ trivia:
   - His favourite food is lotus paste pastries, but only if they're not very sweet.
   - He especially loves fluffy things, especially fluffy fox tails.
   - He has terrible, illegible handwriting that basically almost no one can read except for Qiu Ye.
+  - Lingyan was his name when he was in disguise as a general.
 likes:
   - His wife
   - His kids
@@ -28,6 +29,11 @@ dislikes:
   - Pointless meetings
   - Pretentious individuals
   - Paperwork
+powers:
+  - name: Water magic
+    description: Being a member of the Azure Dragon clan, Jianqing was born with the ability to command water. While his powers were strong, he was very poor at controlling them until he received tutelage from a certain fox spirit. Now, he is highly skilled at manipulating water and is able to use it for both offense and defense.
+  - name: Martial arts
+    description: Jianqing has a natural talent for the martial arts and has had a good amount of training. He is even better at melee combat than his own bodyguard, Yuzhen. He mostly uses a sword but can use other weapons if required. 
 relationships:
   - name: Qiu Ye
     icon: /images/qiuye.png
@@ -44,10 +50,10 @@ featured:
     type: game
     link: https://kanekos99.itch.io/fleeting-dream
     icon: https://kanekos.neocities.org/games/assets/fleeting_dream.png
-alternatives:
-  - name: Hanahaki AU
-    link: /oc-gallery/characters/jianqing/hanahaki-au
-    icon: /images/jianqing-hanahaki.png
+  - name: Plum Blossoms in the Snow
+    type: comic
+    link: https://kanekos.neocities.org/gallery/#comics
+    icon: https://kanekos99.github.io/gallery/assets/artwork/comics/snowy_day/snow1.png
 ---
 
 <!-- section: introduction -->

@@ -78,14 +78,23 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter(
     "getAltsByTag",
     function (collection, currentUrl, id) {
-      console.log(id);
       if (!id) return [];
-      return collection.filter(
+
+      const filtered = collection.filter(
         (item) =>
           item.url !== currentUrl &&
           item.data.id &&
           item.data.id === id,
       );
+
+      const original = filtered.find(
+        (item) => !item.data.au
+      );
+
+      if (!original) return filtered;
+
+      const alternates = filtered.filter((item) => item !== original);
+      return [original, ...alternates];
     },
   );
 

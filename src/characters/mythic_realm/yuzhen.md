@@ -48,10 +48,6 @@ relationships:
     link: /oc-gallery/characters/qiu-ye
     status: Close Friend
     description: '"I would rather eat a whole cow than become friends with the likes of you." Despite that platitude Yuzhen once uttered, he ended up becoming friends with the pesky fox spirit. After all, he promised Jianqing that he would protect Qiu Ye.'
-alternatives:
-  - name: Hanahaki AU
-    link: /oc-gallery/characters/yuzhen/hanahaki-au
-    icon: /images/yuzhen-hanahaki.png
 ---
 
 <!-- section: introduction -->
