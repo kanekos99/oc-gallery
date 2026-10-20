@@ -1,7 +1,7 @@
 ---
 name: Jianqing
 id: jianqing
-image: /images/Jianqing-modern.png
+image: /images/jianqing-modern.png
 series: A Dance of Autumn Leaves
 au: Modern AU
 permalink: /characters/jianqing/modern-au/

@@ -1,7 +1,7 @@
 ---
 name: Jianqing
 id: jianqing
-image: /images/Jianqing-hanahaki.png
+image: /images/jianqing-hanahaki.png
 series: A Dance of Autumn Leaves
 au: Hanahaki AU
 permalink: /characters/jianqing/hanahaki-au/
