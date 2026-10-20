@@ -1,7 +1,9 @@
 ---
 name: Yuzhen
+id: yuzhen
 image: /images/yuzhen-hanahaki.png
 series: A Dance of Autumn Leaves
+tags: ["yuzhen"]
 au: Hanahaki AU
 permalink: /characters/yuzhen/hanahaki-au/
 theme: orange
@@ -26,7 +28,7 @@ relationships:
     icon: /images/qiuye-hanahaki.png
     link: /oc-gallery/characters/qiu-ye/hanahaki-au
     status: Colleague/ Friend
-    description: Yuzhen's colleague - he is Jianqing's secretary (whom Jianqing is also dating/ engaged to). Yuzhen finds him annoying but somehow, they are still friends and they have lunch together. Yuzhen isn't jealous of Qiu Ye's relationship with Jianqing because he doesn't think he has any chance with Jianqing.
+    description: Yuzhen's colleague and Jianqing's secretary (whom Jianqing is also dating/ engaged to). Yuzhen finds him annoying but somehow, they are still friends and they have lunch together every day. Yuzhen isn't jealous of Qiu Ye's relationship with Jianqing because he doesn't think he has any chance with Jianqing.
 alternatives:
   - name: Original
     link: /oc-gallery/characters/yuzhen
@@ -35,8 +37,12 @@ alternatives:
 
 <!-- section: introduction -->
 
-Yuzhen is a bodyguard, who is in love with his boss, [Jianqing](/oc-gallery/characters/jianqing/hanahaki-au). Unfortunately, he is unable to confess his feelings to Jianqing, who is already dating and engaged to someone else (his secretary and Yuzhen's friend, [Qiu Ye](/oc-gallery/characters/qiu-ye/hanahaki-au)) and Yuzhen gets the Hanahaki Disease because of it.<br><br>
+Yuzhen is a bodyguard who is in love with his boss, [Jianqing](/oc-gallery/characters/jianqing/hanahaki-au). Unfortunately, he gets the Hanahaki Disease because he is unable to confess his feelings to Jianqing, who is already dating and engaged to [someone else](/oc-gallery/characters/qiu-ye/hanahaki-au).
 
-(This is a dumb AU that I made for a zine-making workshop. The setting here is basically the same as the [Modern AU](/oc-gallery/characters/qiu-ye/modern-au) except for the fact that the Hanahaki Disease exists. I made a separate page for this AU because I did not want to introduce the existence of the Hanahaki Disease into the regular Modern AU.)<br><br>
+<hr class="dotted-divider">
 
-Just read the damn comic below... _(Note: View full gallery to see the whole thing)_
+This is a dumb AU that I randomly came up with during a zine-making workshop. The setting here is basically the same as the [Modern AU](/oc-gallery/characters/qiu-ye/modern-au) except for the fact that the Hanahaki Disease exists. I made a separate page for this AU because I did not want to introduce the existence of the Hanahaki Disease into the regular Modern AU.<br><br>
+
+Just read the comic below...<br><br> 
+
+_(Note: Click on view full gallery to see the whole thing)_

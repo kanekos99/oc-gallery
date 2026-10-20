@@ -1,7 +1,9 @@
 ---
 name: Qiu Ye
+id: qiu-ye
 image: /images/qiu-ye-modern.png
 series: A Dance of Autumn Leaves
+tags: ["qiu-ye"]
 au: Modern AU
 permalink: /characters/qiu-ye/modern-au/
 theme: orange
@@ -22,6 +24,8 @@ alternatives:
 ---
 
 <!-- section: introduction -->
+
+<div class="alert alert-warning"><b>Warning:</b> Mildly suggestive language</div>
 
 It was common knowledge among the employees of Qinghai Technologies that Qiu Ye was a terrible secretary who was really good at his job.<br><br>
 

@@ -1,7 +1,9 @@
 ---
 name: Jianqing
+id: jianqing
 image: /images/Jianqing.png
 series: A Dance of Autumn Leaves
+tags: ["jianqing"]
 theme: orange
 basic:
   fullname: Zheng Jianqing (郑鉴清)

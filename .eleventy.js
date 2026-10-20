@@ -75,6 +75,20 @@ module.exports = function (eleventyConfig) {
     });
   }
 
+  eleventyConfig.addFilter(
+    "getAltsByTag",
+    function (collection, currentUrl, id) {
+      console.log(id);
+      if (!id) return [];
+      return collection.filter(
+        (item) =>
+          item.url !== currentUrl &&
+          item.data.id &&
+          item.data.id === id,
+      );
+    },
+  );
+
   eleventyConfig.addFilter("getSection", function (content, sectionName) {
     const regex = new RegExp(
       `<!-- section: ${sectionName} -->([\\s\\S]*?)(?=<!-- section:|$|---)`,

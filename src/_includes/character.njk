@@ -460,7 +460,10 @@
                 </div>
               </div>
               {%- endif-%}
-              {% if alternatives %}
+              {% set currentId = id %}
+              {% set altCharacters = collections.all | getAltsByTag(page.url, currentId) %}
+              {% if altCharacters.length > 0 %}
+              {# {% if alternatives %} #}
               <div class="character-body-container">
                 <div class="accordion" id="au-accordion">
                   <div class="accordion-item">
@@ -483,16 +486,20 @@
                     >
                       <div class="accordion-body">
                         <div class="character-body-row">
-                          {% for item in alternatives %}
+                          {% for item in altCharacters %}
                           <a
-                            href="{{ item.link }}"
+                            href="{{ item.url | url }}"
                             class="chara-body-row-item au-item"
                           >
                             <div class="alternate-image-thumbnail">
-                              <img src="{{ item.icon | url }}"/>
+                              <img src="{{ item.data.image | url }}"/>
                             </div>
                             <div class="chara-row-item-title">
-                              <h2>{{ item.name }}</h2>
+                              {% if item.data.au %}
+                              <h2>{{ item.data.au }}</h2>
+                              {% else %}
+                              <h2>Original</h2>
+                              {% endif %}
                             </div>
                           </a>
                           {%- endfor-%}

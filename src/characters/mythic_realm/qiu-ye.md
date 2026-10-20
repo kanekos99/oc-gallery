@@ -1,5 +1,6 @@
 ---
 name: Qiu Ye
+id: qiu-ye
 image: /images/qiuye.png
 series: A Dance of Autumn Leaves
 theme: orange
@@ -57,7 +58,7 @@ relationships:
     icon: /images/Yuzhen.png
     link: /oc-gallery/characters/yuzhen
     status: Close Friend
-    description: Qiu Ye found Yuzhen way too fun to tease, especially about his extremely obvious crush on Jianqing. Technically that should make them love rivals, but Qiu Ye wasn't the type to squander a friendship over something that petty.
+    description: Despite all his teasing, Qiu Ye sees Yuzhen as a reliable friend and cares very much for Yuzhen's wellbeing. Qiu Ye suspects Yuzhen has a small crush on Jianqing, although he isn't entirely sure how serious it is, so it doesn't bother him.
 featured:
   - name: Fleeting Dream
     type: game
