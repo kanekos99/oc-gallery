@@ -9,6 +9,7 @@ basic:
   chara_title: The Silver Sage
   gender: Male
   species: Feli
+  birthday: January 21st
   affiliation: The Lunaris
 links:
   - url: https://toyhou.se/584826.ailithir

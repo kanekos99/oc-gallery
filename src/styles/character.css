@@ -484,6 +484,55 @@ a.chara-body-row-item {
   text-decoration: none;
 }
 
+.writing-list-container {
+  margin-bottom: 0px;
+}
+
+.writing-item {
+  padding: 7px 10px 5px 10px;
+  background-color: var(--background-color);
+  border: 2px dotted var(--box-shadow-color);
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.writing-item dd {
+  margin-bottom: 0px;
+  margin-top: 3px;
+  margin-left: 10px;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.writing-item dt {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.writing-item dt span {
+  background-color: var(--label-color);
+  color: white;
+  font-weight: 900;
+  font-size: 0.9rem;
+  border-radius: 25px;
+  padding: 0px 10px 2px 10px;
+  border-bottom: 2px solid var(--heading-color);
+  border-right: 2px solid var(--heading-color);
+}
+
+.writing-item dt a {
+  color: var(--heading-color);
+  font-weight: 900;
+  text-decoration: 2px underline dotted var(--box-shadow-color);
+}
+
+.writing-item dt a:hover {
+  color: var(--text-color);
+  text-decoration: 2px underline solid var(--text-color);
+}
+
 .alternate-image-thumbnail {
   display: block;
   overflow: hidden;

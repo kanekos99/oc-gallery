@@ -50,5 +50,25 @@
             "credit_link": "https://artfight.net/~Rentrusion",
             "type": "ArtFight Attack"
         }
+    ],
+    "caden": [
+        {
+            "src": "https://kanekos99.github.io/art-archive/gift_comms/small/Scryy.png",
+            "credit": "Scryy",
+            "credit_link": "https://artfight.net/~Scryy",
+            "type": "ArtFight Attack"
+        },
+        {
+            "src": "https://kanekos99.github.io/art-archive/gift_comms/small/kibbletricks.png",
+            "credit": "kibbletricks",
+            "credit_link": "https://artfight.net/~kibbletricks",
+            "type": "ArtFight Attack"
+        },
+        {
+            "src": "https://kanekos99.github.io/art-archive/gift_comms/small/Softycloud.png",
+            "credit": "Softycloud",
+            "credit_link": "https://artfight.net/~Softycloud",
+            "type": "ArtFight Attack"
+        }
     ]
 }
