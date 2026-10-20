@@ -9,6 +9,11 @@ basic:
   species: Qilin
   age: 19+
   affiliation: Qinghai
+links:
+  - url: https://toyhou.se/22281324.yuzhen
+    type: Toyhou.se
+  - url: https://artfight.net/character/8804430.yuzhen
+    type: ArtFight
 preview_gallery:
   - https://f2.toyhou.se/file/f2-toyhou-se/images/129707485_Y37SKvLQTgDuj9M.png
   - https://f2.toyhou.se/file/f2-toyhou-se/images/67176353_HfJ6r2WxAt332sr.png
@@ -18,8 +23,19 @@ trivia:
   - Like most other Qilin, he is vegetarian. Ingesting meat would make him violently ill. He does not like to eat anything with excessive oil or spices either.
   - His favourite food is camellia flowers, especially ones that are freshly plucked from the stem.
   - He has two swords - a standard issue steel sword for fighting, and a decorative sword made of pure jade, which was a gift from Jianqing.
-  - He can disguise himself in shadows and travel through them quickly, which proves to be useful for espionage missions.
-  - He doesn’t particularly like physical touch as well
+likes:
+  - Fresh flowers
+  - Training
+  - Being praised
+dislikes:
+  - Physical touch
+  - Suggestive comments
+  - Spices and oil
+powers:
+  - name: Shadow magic
+    description: Yuzhen can conceal himself in the shadows and travel through them quickly. He utilises this ability for espionage missions.
+  - name: Martial arts
+    description: He is skilled in martial arts and is good with a sword. He has basic training with other weapons as well.
 relationships:
   - name: Jianqing
     icon: /images/Jianqing.png
@@ -30,7 +46,11 @@ relationships:
     icon: /images/qiuye.png
     link: /oc-gallery/characters/qiu-ye
     status: Close Friend
-    description: “I would rather eat a whole cow than become friends with the likes of you.” Despite that platitude Yuzhen once uttered, they ended up becoming friends. After all, he promised Jianqing that he would protect Qiu Ye.
+    description: '"I would rather eat a whole cow than become friends with the likes of you." Despite that platitude Yuzhen once uttered, he ended up becoming friends with the pesky fox spirit. After all, he promised Jianqing that he would protect Qiu Ye.'
+alternatives:
+  - name: Hanahaki AU
+    link: /oc-gallery/characters/yuzhen/hanahaki-au
+    icon: /images/yuzhen-hanahaki.png
 ---
 
 <!-- section: introduction -->

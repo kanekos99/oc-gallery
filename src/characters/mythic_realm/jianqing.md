@@ -43,6 +43,10 @@ featured:
     type: game
     link: https://kanekos99.itch.io/fleeting-dream
     icon: https://kanekos.neocities.org/games/assets/fleeting_dream.png
+alternatives:
+  - name: Hanahaki AU
+    link: /oc-gallery/characters/jianqing/hanahaki-au
+    icon: /images/jianqing-hanahaki.png
 ---
 
 <!-- section: introduction -->

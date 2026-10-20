@@ -75,5 +75,19 @@
     "credit": "Softycloud",
     "credit_link": "https://artfight.net/~Softycloud",
     "type": "ArtFight Attack"
+  },
+  {
+    "img": "https://kanekos99.github.io/art-archive/gift_comms/small/halfpastnever.png",
+    "tags": "ailithir",
+    "credit": "k_lumy",
+    "credit_link": "https://artfight.net/~k_lumy",
+    "type": "ArtFight Attack"
+  },
+  {
+    "img": "https://kanekos99.github.io/art-archive/gift_comms/small/k_lumy.png",
+    "tags": "ailithir",
+    "credit": "halfpastnever",
+    "credit_link": "https://artfight.net/~halfpastnever",
+    "type": "ArtFight Attack"
   }
 ]

@@ -25,11 +25,6 @@
     "type": "illustration"
   },
   {
-    "image": "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/design_1.png",
-    "tags": "qiu-ye",
-    "type": "chibi"
-  },
-  {
     "image": "https://kanekos99.github.io/art-archive/img/small/qiu-ye-headshot.png",
     "tags": "qiu-ye",
     "type": "illustration"
@@ -55,12 +50,52 @@
     "type": "illustration"
   },
   {
-    "image": "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/Shapeshifter_1.png",
+    "image": "https://kanekos99.github.io/art-archive/img/small/cny-comic.png",
     "tags": "qiu-ye, xue-hua",
-    "type": "illustration"
+    "type": "comic"
   },
   {
     "image": "https://kanekos99.github.io/sketch-gallery/img/Autumn.webp",
+    "tags": "qiu-ye",
+    "type": "chibi"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/qiuye-happy.png",
+    "tags": "qiu-ye",
+    "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/egg.png",
+    "tags": "qiu-ye, ruilan",
+    "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/jq_bb.png",
+    "tags": "jianqing, ruilan",
+    "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/Jianqing_Chibi_Doodle.png",
+    "tags": "jianqing",
+    "type": "chibi"
+  },
+  {
+    "image": "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/design_2.png",
+    "tags": "jianqing",
+    "type": "chibi"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/meme.png",
+    "tags": "qiu-ye, ruilan, jianqing",
+    "type": "comic"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/third_wheel.png",
+    "tags": "qiu-ye, jianqing, yuzhen",
+    "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/design_1.png",
     "tags": "qiu-ye",
     "type": "chibi"
   },
@@ -78,11 +113,6 @@
     "image": "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/Qiu_Ye_Chibi_Doodle.png",
     "tags": "qiu-ye",
     "type": "chibi"
-  },
-  {
-    "image": "https://kanekos99.github.io/sketch-gallery/img/Plush_v2.webp",
-    "tags": "qiu-ye",
-    "type": "illustration"
   },
   {
     "image": "https://kanekos99.github.io/gallery/assets/artwork/character_designs/references/allie_model.png",
@@ -130,32 +160,7 @@
     "type": "ref"
   },
   {
-    "image": "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/jq_bb.png",
-    "tags": "jianqing, ruilan",
-    "type": "illustration"
-  },
-  {
-    "image": "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/Jianqing_Chibi_Doodle.png",
-    "tags": "jianqing",
-    "type": "chibi"
-  },
-  {
-    "image": "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/design_2.png",
-    "tags": "jianqing",
-    "type": "chibi"
-  },
-  {
-    "image": "https://kanekos99.github.io/art-archive/img/small/third_wheel.png",
-    "tags": "qiu-ye, jianqing, yuzhen",
-    "type": "illustration"
-  },
-  {
     "image": "https://kanekos99.github.io/art-archive/img/small/Fox.png",
-    "tags": "qiu-ye",
-    "type": "ref"
-  },
-  {
-    "image": "https://kanekos99.github.io/art-archive/img/small/qiu-ye-ref.png",
     "tags": "qiu-ye",
     "type": "ref"
   },
@@ -268,5 +273,80 @@
     "image": "https://kanekos99.github.io/art-archive/img/small/caden_young.png",
     "tags": "caden",
     "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/mini_zine_1.png",
+    "tags": "yuzhen-hanahaki, qiu-ye-hanahaki, jianqing-hanahaki",
+    "type": "comic"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/mini_zine_2.png",
+    "tags": "yuzhen-hanahaki, qiu-ye-hanahaki, jianqing-hanahaki",
+    "type": "comic"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/mini_zine_3.png",
+    "tags": "yuzhen-hanahaki, qiu-ye-hanahaki, jianqing-hanahaki",
+    "type": "comic"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/mini_zine_4.png",
+    "tags": "yuzhen-hanahaki, qiu-ye-hanahaki, jianqing-hanahaki",
+    "type": "comic"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/mini_zine_5.png",
+    "tags": "yuzhen-hanahaki, qiu-ye-hanahaki, jianqing-hanahaki",
+    "type": "comic"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/mini_zine_6.png",
+    "tags": "yuzhen-hanahaki, qiu-ye-hanahaki, jianqing-hanahaki",
+    "type": "comic"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/mini_zine_7.png",
+    "tags": "yuzhen-hanahaki, qiu-ye-hanahaki, jianqing-hanahaki",
+    "type": "comic"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/mini_zine_8.png",
+    "tags": "yuzhen-hanahaki, qiu-ye-hanahaki, jianqing-hanahaki",
+    "type": "comic"
+  },
+  {
+    "image": "https://kanekos99.github.io/sketch-gallery/img/Plush_v2.webp",
+    "tags": "qiu-ye",
+    "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/qiuye-old-ref.png",
+    "tags": "qiu-ye",
+    "type": "old"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/dance-old.png",
+    "tags": "qiu-ye",
+    "type": "old"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/old-ink.png",
+    "tags": "qiu-ye",
+    "type": "old"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/qiu-ye-ref2.png",
+    "tags": "qiu-ye",
+    "type": "ref"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/qiu-ye-ref.png",
+    "tags": "qiu-ye",
+    "type": "ref"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/qiuye-dance-ref.png",
+    "tags": "qiu-ye",
+    "type": "ref"
   }
 ]

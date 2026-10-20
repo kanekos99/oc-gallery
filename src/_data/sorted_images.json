@@ -1,30 +1,39 @@
 {
     "qiu-ye": {
-        "count": 19,
+        "count": 27,
         "ref": [
             "https://kanekos99.github.io/gallery/assets/artwork/character_designs/references/fox4.png",
             "https://kanekos99.github.io/art-archive/img/small/Fox.png",
+            "https://kanekos99.github.io/art-archive/img/small/qiu-ye-casual.png",
+            "https://kanekos99.github.io/art-archive/img/small/qiu-ye-ref2.png",
             "https://kanekos99.github.io/art-archive/img/small/qiu-ye-ref.png",
-            "https://kanekos99.github.io/art-archive/img/small/qiu-ye-casual.png"
+            "https://kanekos99.github.io/art-archive/img/small/qiuye-dance-ref.png"
         ],
         "others": [
             "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/qiu_ye_card.png",
             "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/smile.png",
-            "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/design_1.png",
             "https://kanekos99.github.io/art-archive/img/small/qiu-ye-headshot.png",
             "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/qiu_ye_11.gif",
             "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/qiu_ye_8.png",
             "https://kanekos99.github.io/art-archive/img/small/qiu-ye-lantern.png",
             "https://kanekos99.github.io/art-archive/img/small/qiu-ye-valentine.png",
-            "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/Shapeshifter_1.png",
+            "https://kanekos99.github.io/art-archive/img/small/cny-comic.png",
             "https://kanekos99.github.io/sketch-gallery/img/Autumn.webp",
+            "https://kanekos99.github.io/art-archive/img/small/qiuye-happy.png",
+            "https://kanekos99.github.io/art-archive/img/small/egg.png",
+            "https://kanekos99.github.io/art-archive/img/small/meme.png",
+            "https://kanekos99.github.io/art-archive/img/small/third_wheel.png",
+            "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/design_1.png",
             "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/qiuye_tail_wag.png",
             "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/tail_wag.png",
             "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/Qiu_Ye_Chibi_Doodle.png",
-            "https://kanekos99.github.io/sketch-gallery/img/Plush_v2.webp",
-            "https://kanekos99.github.io/art-archive/img/small/third_wheel.png"
+            "https://kanekos99.github.io/sketch-gallery/img/Plush_v2.webp"
         ],
-        "old": []
+        "old": [
+            "https://kanekos99.github.io/art-archive/img/small/qiuye-old-ref.png",
+            "https://kanekos99.github.io/art-archive/img/small/dance-old.png",
+            "https://kanekos99.github.io/art-archive/img/small/old-ink.png"
+        ]
     },
     "ailithir": {
         "count": 23,
@@ -59,16 +68,18 @@
         ]
     },
     "ruilan": {
-        "count": 2,
+        "count": 4,
         "ref": [],
         "others": [
             "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/qiu_ye_8.png",
-            "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/jq_bb.png"
+            "https://kanekos99.github.io/art-archive/img/small/egg.png",
+            "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/jq_bb.png",
+            "https://kanekos99.github.io/art-archive/img/small/meme.png"
         ],
         "old": []
     },
     "jianqing": {
-        "count": 7,
+        "count": 8,
         "ref": [
             "https://kanekos99.github.io/art-archive/img/small/jq_ref.png",
             "https://kanekos99.github.io/gallery/assets/artwork/sketches/jianqing.png"
@@ -78,6 +89,7 @@
             "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/jq_bb.png",
             "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/Jianqing_Chibi_Doodle.png",
             "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/design_2.png",
+            "https://kanekos99.github.io/art-archive/img/small/meme.png",
             "https://kanekos99.github.io/art-archive/img/small/third_wheel.png"
         ],
         "old": []
@@ -94,7 +106,15 @@
         "count": 1,
         "ref": [],
         "others": [
-            "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/Shapeshifter_1.png"
+            "https://kanekos99.github.io/art-archive/img/small/cny-comic.png"
+        ],
+        "old": []
+    },
+    "yuzhen": {
+        "count": 1,
+        "ref": [],
+        "others": [
+            "https://kanekos99.github.io/art-archive/img/small/third_wheel.png"
         ],
         "old": []
     },
@@ -118,14 +138,6 @@
             "https://kanekos99.github.io/art-archive/img/small/family.png",
             "https://kanekos99.github.io/art-archive/img/small/wedding.png"
         ]
-    },
-    "yuzhen": {
-        "count": 1,
-        "ref": [],
-        "others": [
-            "https://kanekos99.github.io/art-archive/img/small/third_wheel.png"
-        ],
-        "old": []
     },
     "qiu-ye-modern": {
         "count": 2,
@@ -177,5 +189,50 @@
         "old": [
             "https://kanekos99.github.io/art-archive/img/small/family.png"
         ]
+    },
+    "yuzhen-hanahaki": {
+        "count": 8,
+        "ref": [],
+        "others": [
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_1.png",
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_2.png",
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_3.png",
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_4.png",
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_5.png",
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_6.png",
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_7.png",
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_8.png"
+        ],
+        "old": []
+    },
+    "qiu-ye-hanahaki": {
+        "count": 8,
+        "ref": [],
+        "others": [
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_1.png",
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_2.png",
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_3.png",
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_4.png",
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_5.png",
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_6.png",
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_7.png",
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_8.png"
+        ],
+        "old": []
+    },
+    "jianqing-hanahaki": {
+        "count": 8,
+        "ref": [],
+        "others": [
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_1.png",
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_2.png",
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_3.png",
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_4.png",
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_5.png",
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_6.png",
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_7.png",
+            "https://kanekos99.github.io/art-archive/img/small/mini_zine_8.png"
+        ],
+        "old": []
     }
 }

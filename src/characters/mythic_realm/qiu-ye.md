@@ -25,7 +25,7 @@ sketchlog_link: https://kanekos.neocities.org/sketchlog/#tag=qiu-ye
 trivia:
   - He likes tofu and all tofu-related food. His favourite is spicy mapo tofu.
   - He has nine tails, but doesn't always show all of them since they take up too much space.
-  - He wields an infamous weapon known as the cursed cinnabar blade, which is said to inflict madness upon anyone who tries to draw it out of its sheath other than its rightful owner. It also traps the soul of anyone killed by it. Qiu Ye claims to have acquired the weapon by fishing it out a pond.
+  - Qiu Ye claims to have acquired his cursed sword by fishing it out a pond. 
 likes:
   - Any kind of tofu dish
   - Fishing
@@ -34,6 +34,19 @@ dislikes:
   - Formalities
   - Rules and regulations
   - Getting his tails dirty
+powers:
+  - name: Demonic energy manipulation
+    description: As a nine-tailed fox spirit, Qiu Ye can command demonic energy to inflict physical harm upon his opponents. At the peak of his power, he can summon/ transform into a large demonic fox entity. However, he only uses this power when absolutely necessary.
+  - name: Wind magic
+    description: He has a good grasp of wind magic and frequently uses wind spells, allowing him to float and fly for short bursts, as well as to make barriers out of wind.
+  - name: Minor talisman spells
+    description: He can craft or use pre-made talismans to cast minor spells, such as lighting a fire.
+  - name: Hair pins
+    description: He has a set of hair pins that he can throw at his opponents to strike their acupuncture points and immoblise them.
+  - name: Cursed cinnabar blade
+    description: Qiu Ye wields an infamous weapon known as the cursed cinnabar blade, which is said to inflict madness upon anyone who tries to draw it out of its sheath other than its rightful owner. It can attack autonomously at his command, and it traps the soul of anyone slain by it. Qiu Ye can also fly around on it. (On a side note, the blade is named such because of its reddish color and not its material, which appears to be steel.)
+  - name: Martial arts
+    description: While he mostly relies on his blade or his magic to do his fighting, Qiu Ye also has some level of martial arts training. However, he only knows how to use swords and prefers to use single-edged blades.
 relationships:
   - name: Jianqing
     icon: /images/Jianqing.png
@@ -58,6 +71,9 @@ alternatives:
   - name: Modern AU
     link: /oc-gallery/characters/qiu-ye/modern-au
     icon: /images/qiu-ye-modern.png
+  - name: Hanahaki AU
+    link: /oc-gallery/characters/qiu-ye/hanahaki-au
+    icon: /images/qiuye-hanahaki.png
 ---
 
 <!-- section: introduction -->
