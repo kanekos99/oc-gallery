@@ -46,4 +46,4 @@ As Caden attempted to flee after his failed assassination attempt, Ailithir over
 
 When he woke up again, Caden found himself in a dim cellar, chained next to an altar. He could only watch helplessly as guards dragged in the members of that group of dissidents who had sought out his help. One by one, upon that blood-stained altar, Ailithir slit their throats.<br><br>
 
-Caden expected that he would soon share their fate, yet Ailithir only ordered the guards to take him back to a cell. Afterwards, Ailithir would continue to visit him every day and act as though nothing unusual had transpired between the two of them.
+Caden expected that he would soon share their fate, yet Ailithir only ordered the guards to take him back to a cell. Afterwards, Ailithir would visit him every day and act all caring and affectionate towards him until Caden felt sick.
