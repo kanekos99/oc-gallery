@@ -141,7 +141,7 @@
   },
   {
     "image": "https://kanekos99.github.io/gallery/assets/artwork/sketches/allie_sketch.PNG",
-    "tags": "ailithir",
+    "tags": "ailithir, ailithir-fem",
     "type": "illustration"
   },
   {
@@ -365,9 +365,14 @@
     "type": "sketch"
   },
   {
+    "image": "https://kanekos99.github.io/art-archive/img/small/fem_allie.png",
+    "tags": "ailithir-fem",
+    "type": "ref"
+  },
+  {
     "image": "https://kanekos99.github.io/art-archive/img/small/magic_girl.png",
     "tags": "ailithir-fem, caden-fem",
-    "type": "illustration"
+    "type": "ref"
   },
   {
     "image": "https://kanekos99.github.io/art-archive/img/small/Yuri_1.png",

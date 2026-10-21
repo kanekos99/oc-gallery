@@ -141,6 +141,24 @@
             "https://kanekos99.github.io/art-archive/img/small/wedding.png"
         ]
     },
+    "ailithir-fem": {
+        "count": 9,
+        "ref": [
+            "https://kanekos99.github.io/art-archive/img/small/fem_allie.png",
+            "https://kanekos99.github.io/art-archive/img/small/magic_girl.png"
+        ],
+        "others": [
+            "https://kanekos99.github.io/gallery/assets/artwork/sketches/allie_sketch.PNG",
+            "https://kanekos99.github.io/art-archive/img/small/Yuri_1.png"
+        ],
+        "old": [
+            "https://kanekos99.github.io/art-archive/img/small/indigo_ailia.png",
+            "https://kanekos99.github.io/art-archive/img/small/ink_aila.png",
+            "https://kanekos99.github.io/art-archive/img/small/inktober_aila.png",
+            "https://kanekos99.github.io/art-archive/img/small/sketch_aila.png",
+            "https://kanekos99.github.io/art-archive/img/small/old_sketch_aila.png"
+        ]
+    },
     "qiu-ye-modern": {
         "count": 2,
         "ref": [
@@ -254,26 +272,12 @@
         ],
         "old": []
     },
-    "ailithir-fem": {
-        "count": 7,
-        "ref": [],
-        "others": [
-            "https://kanekos99.github.io/art-archive/img/small/magic_girl.png",
-            "https://kanekos99.github.io/art-archive/img/small/Yuri_1.png"
-        ],
-        "old": [
-            "https://kanekos99.github.io/art-archive/img/small/indigo_ailia.png",
-            "https://kanekos99.github.io/art-archive/img/small/ink_aila.png",
-            "https://kanekos99.github.io/art-archive/img/small/inktober_aila.png",
-            "https://kanekos99.github.io/art-archive/img/small/sketch_aila.png",
-            "https://kanekos99.github.io/art-archive/img/small/old_sketch_aila.png"
-        ]
-    },
     "caden-fem": {
         "count": 4,
-        "ref": [],
+        "ref": [
+            "https://kanekos99.github.io/art-archive/img/small/magic_girl.png"
+        ],
         "others": [
-            "https://kanekos99.github.io/art-archive/img/small/magic_girl.png",
             "https://kanekos99.github.io/art-archive/img/small/Yuri_1.png"
         ],
         "old": [
