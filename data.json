@@ -75,14 +75,39 @@
     "type": "illustration"
   },
   {
-    "image": "https://kanekos99.github.io/art-archive/img/small/meme.png",
-    "tags": "qiu-ye, ruilan, jianqing",
-    "type": "comic"
+    "image": "https://kanekos99.github.io/art-archive/img/small/jq_ref.png",
+    "tags": "jianqing",
+    "type": "ref"
+  },
+  {
+    "image": "https://kanekos99.github.io/gallery/assets/artwork/sketches/jianqing.png",
+    "tags": "jianqing",
+    "type": "ref"
+  },
+  {
+    "image": "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/jq_bb.png",
+    "tags": "jianqing, ruilan",
+    "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/Jianqing_Chibi_Doodle.png",
+    "tags": "jianqing",
+    "type": "chibi"
+  },
+  {
+    "image": "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/design_2.png",
+    "tags": "jianqing",
+    "type": "chibi"
   },
   {
     "image": "https://kanekos99.github.io/art-archive/img/small/third_wheel.png",
     "tags": "qiu-ye, jianqing, yuzhen",
     "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/meme.png",
+    "tags": "qiu-ye, ruilan, jianqing",
+    "type": "comic"
   },
   {
     "image": "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/design_1.png",
@@ -138,31 +163,6 @@
     "image": "https://kanekos99.github.io/art-archive/img/small/allie_chibi.png",
     "tags": "ailithir",
     "type": "ref"
-  },
-  {
-    "image": "https://kanekos99.github.io/art-archive/img/small/jq_ref.png",
-    "tags": "jianqing",
-    "type": "ref"
-  },
-  {
-    "image": "https://kanekos99.github.io/gallery/assets/artwork/sketches/jianqing.png",
-    "tags": "jianqing",
-    "type": "ref"
-  },
-  {
-    "image": "https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/jq_bb.png",
-    "tags": "jianqing, ruilan",
-    "type": "illustration"
-  },
-  {
-    "image": "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/Jianqing_Chibi_Doodle.png",
-    "tags": "jianqing",
-    "type": "chibi"
-  },
-  {
-    "image": "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/design_2.png",
-    "tags": "jianqing",
-    "type": "chibi"
   },
   {
     "image": "https://kanekos99.github.io/art-archive/img/small/Fox.png",
@@ -366,12 +366,17 @@
   },
   {
     "image": "https://kanekos99.github.io/art-archive/img/small/magic_girl.png",
-    "tags": "ailithir-fem",
+    "tags": "ailithir-fem, caden-fem",
+    "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/Yuri_1.png",
+    "tags": "ailithir-fem, caden-fem",
     "type": "illustration"
   },
   {
     "image": "https://kanekos99.github.io/art-archive/img/small/indigo_ailia.png",
-    "tags": "ailithir-fem",
+    "tags": "ailithir-fem, caden-fem",
     "type": "old"
   },
   {
@@ -391,7 +396,7 @@
   },
   {
     "image": "https://kanekos99.github.io/art-archive/img/small/old_sketch_aila.png",
-    "tags": "ailithir-fem",
+    "tags": "ailithir-fem, caden-fem",
     "type": "old"
   }
 ]

@@ -23,6 +23,7 @@ another attempt at making an OC website
   - url
   - type
 - preview_gallery
+- sketchlog_link (link to sketch log tag)
 - trivia
 - likes
 - dislikes
