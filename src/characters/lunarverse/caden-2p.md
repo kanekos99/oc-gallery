@@ -30,7 +30,7 @@ relationships:
 
 _An AU where everything is dark and fucked up so you probably get the idea._<br><br>
 
-Like in [the original](/oc-gallery/characters/caden), Caden is former Rhyll warrior. But he turned to alcoholism to cope with the lingering trauma of the war and the grief of losing many of his closest friends.<br><br>
+Like in [the original](/oc-gallery/characters/caden), Caden is war veteran. But he turned to alcoholism to cope with the lingering trauma of the war and the grief of losing many of his closest friends.<br><br>
 
 He started a co-dependent relationship with [Ailithir](/oc-gallery/characters/ailithir/2p-au), since they were all each other had left. However, Ailithir began to display increasingly erratic and self-destructive behaviour, which frustrated and worried him greatly. Until one day Caden was no longer able to tolerate it and struck Ailithir out of anger.<br><br>
 
