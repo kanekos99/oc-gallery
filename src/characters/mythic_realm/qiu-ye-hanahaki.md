@@ -11,7 +11,7 @@ basic:
   chara_title: Secretary Qiu
   gender: Male
   species: Fox Spirit
-  age: 35
+  age: 30
   affiliation: Qinghai Technologies
 preview_gallery:
   - https://kanekos99.github.io/art-archive/img/small/mini_zine_1.png
