@@ -36,7 +36,9 @@ dislikes:
   - Paperwork
 powers:
   - name: Water magic
-    description: Being a member of the Azure Dragon clan, Jianqing was born with the ability to command water. While his powers were strong, he was very poor at controlling them until he received tutelage from a certain fox spirit. Now, he is highly skilled at manipulating water and is able to use it for both offense and defense.
+    description: Being a member of the Azure Dragon clan, Jianqing was born with the ability to command water. While his powers were strong, he was very poor at controlling them until he received tutelage from a certain fox spirit. Now, he is highly skilled at manipulating water and is able to use it for both offence and defence.
+  - name: Minor talisman spells
+    description: He can craft or use pre-made talismans to cast minor spells, such as lighting a fire.
   - name: Martial arts
     description: Jianqing has a natural talent for the martial arts and has had a good amount of training. He is even better at melee combat than his own bodyguard, Yuzhen. He mostly uses a sword but can use other weapons if required. 
 relationships:
