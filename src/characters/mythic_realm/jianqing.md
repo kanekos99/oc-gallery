@@ -12,6 +12,11 @@ basic:
   chara_title: Azure Dragon Emperor
   age: 27+
   affiliation: Qinghai
+links:
+  - url: https://toyhou.se/16706133.jianqing
+    type: Toyhou.se
+  - url: https://unvale.io/character/bce10440-f92a-45a3-9389-3dc0be323229
+    type: Unvale 
 preview_gallery:
   - https://f2.toyhou.se/file/f2-toyhou-se/images/50958063_PfE59I4NiNmSfGy.png
   - https://kanekos99.github.io/gallery/assets/artwork/sketches/jianqing.png
