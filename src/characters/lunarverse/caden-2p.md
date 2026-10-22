@@ -32,6 +32,8 @@ _An AU where everything is dark and fucked up so you probably get the idea._<br>
 
 Like in [the original](/oc-gallery/characters/caden), Caden is war veteran. But he turned to alcoholism to cope with the lingering trauma of the war and the grief of losing many of his closest friends.<br><br>
 
+Unlike the original Caden who is just slightly grumpy, this guy has some serious anger issues and violent tendencies.<br><br>
+
 He started a co-dependent relationship with [Ailithir](/oc-gallery/characters/ailithir/2p-au), since they were all each other had left. However, Ailithir began to display increasingly erratic and self-destructive behaviour, which frustrated and worried him greatly. Until one day Caden was no longer able to tolerate it and struck Ailithir out of anger.<br><br>
 
 At first he was horrified by what he had done, but when Ailithir only laughed and asked him to hit him again, Caden lost his temper.<br><br>
