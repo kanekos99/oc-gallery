@@ -16,6 +16,8 @@ basic:
 preview_gallery:
   - https://kanekos99.github.io/art-archive/img/small/2p_allie_caden.png
   - https://kanekos99.github.io/art-archive/img/small/2p_allie.png
+trivia:
+  - His hair and fur are always messy because he can no longer be bothered to groom himself properly.
 relationships:
   - name: Caden
     icon: /images/caden-2p.png
@@ -34,4 +36,6 @@ In this AU, the storyline follows the same as [the original](/oc-gallery/charact
 
 However, weighed down by the immense guilt of his actions and his past failures, he also begins engage in self-destructive behaviour as a way to punish himself, displaying extremely masochistic tendencies.<br><br> 
 
-At the same time, he becomes completely obsessive over the one person he still cares about, [Caden](/oc-gallery/characters/caden/2p-au), and will do whatever it takes to keep Caden by his side forever.
+At the same time, he becomes completely obsessive over the one person he still cares about, [Caden](/oc-gallery/characters/caden/2p-au), and will do whatever it takes to keep Caden by his side forever.<br><br>
+
+Unlike the original Ailithir who is still an optimistic individual despite his personal insecurities, 2p!Ailithir has lost all hope in the world. He is full of self-hatred, deeply mistrustful of those around him, and no longer cares about his people. His sanity is pretty much hanging by a thread.
