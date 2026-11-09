@@ -1,5 +1,25 @@
 [
   {
+    "image": "https://kanekos99.github.io/art-archive/img/small/xuehua_ref.png",
+    "tags": "xue-hua",
+    "type": "ref"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/xuehua_ref2.png",
+    "tags": "xue-hua",
+    "type": "ref"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/xuehua_head.png",
+    "tags": "xue-hua",
+    "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/xue_hua_child.png",
+    "tags": "xue-hua",
+    "type": "ref"
+  },
+  {
     "image": "https://kanekos99.github.io/gallery/assets/artwork/character_designs/references/fox4.png",
     "tags": "qiu-ye",
     "type": "ref"
@@ -60,9 +80,19 @@
     "type": "comic"
   },
   {
-    "image": "https://kanekos99.github.io/sketch-gallery/img/Autumn.webp",
+    "image": "https://kanekos99.github.io/sketch-gallery/img/00-Autumn.webp",
     "tags": "qiu-ye",
-    "type": "chibi"
+    "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/sketch-gallery/img/00-Winter.webp",
+    "tags": "xue-hua",
+    "type": "illustration"
+  },
+  {
+    "image": "https://kanekos99.github.io/art-archive/img/small/xue_hua_gif.gif",
+    "tags": "xue-hua",
+    "type": "illustration"
   },
   {
     "image": "https://kanekos99.github.io/art-archive/img/small/qiuye-happy.png",
@@ -320,9 +350,9 @@
     "type": "comic"
   },
   {
-    "image": "https://kanekos99.github.io/sketch-gallery/img/Plush_v2.webp",
+    "image": "https://kanekos99.github.io/sketch-gallery/img/00-Plush_v2.webp",
     "tags": "qiu-ye",
-    "type": "illustration"
+    "type": "chibi"
   },
   {
     "image": "https://kanekos99.github.io/art-archive/img/small/qiuye-old-ref.png",

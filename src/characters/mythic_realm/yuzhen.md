@@ -16,10 +16,10 @@ links:
   - url: https://artfight.net/character/8804430.yuzhen
     type: ArtFight
 preview_gallery:
-  - https://f2.toyhou.se/file/f2-toyhou-se/images/129707485_Y37SKvLQTgDuj9M.png
-  - https://f2.toyhou.se/file/f2-toyhou-se/images/67176353_HfJ6r2WxAt332sr.png
-  - https://f2.toyhou.se/file/f2-toyhou-se/images/67176404_bRDjkzaDrWiJLkw.png
-  - https://f2.toyhou.se/file/f2-toyhou-se/images/95812182_WsPPZa3xxIUds7a.png
+  - https://kanekos99.github.io/art-archive/img/small/yuzhen_ref.png
+  - https://kanekos99.github.io/art-archive/img/small/yuzhen_head.png
+  - https://kanekos99.github.io/art-archive/img/small/yuzhen_sketch.png
+  - https://kanekos99.github.io/art-archive/img/small/third_wheel.png
 trivia:
   - Like most other Qilin, he is vegetarian. Ingesting meat would make him violently ill. He does not like to eat anything with excessive oil or spices either.
   - His favourite food is camellia flowers, especially ones that are freshly plucked from the stem.

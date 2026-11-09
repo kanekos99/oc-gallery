@@ -18,7 +18,7 @@ links:
   - url: https://unvale.io/character/bce10440-f92a-45a3-9389-3dc0be323229
     type: Unvale 
 preview_gallery:
-  - https://f2.toyhou.se/file/f2-toyhou-se/images/50958063_PfE59I4NiNmSfGy.png
+  - https://kanekos99.github.io/art-archive/img/small/jq_ref.png
   - https://kanekos99.github.io/gallery/assets/artwork/sketches/jianqing.png
   - https://kanekos99.github.io/gallery/assets/artwork/original/illustrations/jq_bb.png
   - https://kanekos99.github.io/gallery/assets/artwork/original/chibis/Jianqing_Chibi_Doodle.png

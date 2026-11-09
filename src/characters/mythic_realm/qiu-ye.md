@@ -59,6 +59,11 @@ relationships:
     link: /oc-gallery/characters/yuzhen
     status: Close Friend
     description: Despite all his teasing, Qiu Ye sees Yuzhen as a reliable friend and cares very much for Yuzhen's wellbeing. Qiu Ye suspects Yuzhen has a small crush on Jianqing, although he isn't entirely sure how serious it is. But since he likes Yuzhen, he's up for sharing Jianqing with him.
+  - name: Xue Hua
+    icon: /images/xue-hua.png
+    link: /oc-gallery/characters/xue-hua
+    status: Frenemy
+    description: Qiu Ye sees her as a younger sister and still feels some sense of responsibility towards her. That said, while they were close in the past, he now finds her to be an annoying brat who is a menace to his peaceful new life.
 featured:
   - name: Fleeting Dream
     type: game

@@ -1,4 +1,19 @@
 {
+    "xue-hua": {
+        "count": 7,
+        "ref": [
+            "https://kanekos99.github.io/art-archive/img/small/xuehua_ref.png",
+            "https://kanekos99.github.io/art-archive/img/small/xuehua_ref2.png",
+            "https://kanekos99.github.io/art-archive/img/small/xue_hua_child.png"
+        ],
+        "others": [
+            "https://kanekos99.github.io/art-archive/img/small/xuehua_head.png",
+            "https://kanekos99.github.io/art-archive/img/small/cny-comic.png",
+            "https://kanekos99.github.io/sketch-gallery/img/00-Winter.webp",
+            "https://kanekos99.github.io/art-archive/img/small/xue_hua_gif.gif"
+        ],
+        "old": []
+    },
     "qiu-ye": {
         "count": 28,
         "ref": [
@@ -19,7 +34,7 @@
             "https://kanekos99.github.io/art-archive/img/small/qiu-ye-lantern.png",
             "https://kanekos99.github.io/art-archive/img/small/qiu-ye-valentine.png",
             "https://kanekos99.github.io/art-archive/img/small/cny-comic.png",
-            "https://kanekos99.github.io/sketch-gallery/img/Autumn.webp",
+            "https://kanekos99.github.io/sketch-gallery/img/00-Autumn.webp",
             "https://kanekos99.github.io/art-archive/img/small/qiuye-happy.png",
             "https://kanekos99.github.io/art-archive/img/small/egg.png",
             "https://kanekos99.github.io/art-archive/img/small/third_wheel.png",
@@ -28,7 +43,7 @@
             "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/qiuye_tail_wag.png",
             "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/tail_wag.png",
             "https://kanekos99.github.io/gallery/assets/artwork/original/chibis/Qiu_Ye_Chibi_Doodle.png",
-            "https://kanekos99.github.io/sketch-gallery/img/Plush_v2.webp"
+            "https://kanekos99.github.io/sketch-gallery/img/00-Plush_v2.webp"
         ],
         "old": [
             "https://kanekos99.github.io/art-archive/img/small/qiuye-old-ref.png",
@@ -101,14 +116,6 @@
         "ref": [],
         "others": [
             "https://kanekos99.github.io/art-archive/img/small/qiu-ye-lantern.png"
-        ],
-        "old": []
-    },
-    "xue-hua": {
-        "count": 1,
-        "ref": [],
-        "others": [
-            "https://kanekos99.github.io/art-archive/img/small/cny-comic.png"
         ],
         "old": []
     },
