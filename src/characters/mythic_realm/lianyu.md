@@ -7,7 +7,7 @@ theme: orange
 basic:
   fullname: Zheng Lianyu (郑莲玉)
   gender: Male
-  species: Ice Dragon
+  species: Half Ice Dragon, half Water Dragon
   chara_title: Azure Dragon Emperor (Former)
   affiliation: Qinghai
 links:
@@ -20,6 +20,20 @@ trivia:
   - He likes peach tea and lotus flower pastries.
   - He doesn't like alcohol and is a lightweight, but he still forces himself to drink for formal occasions. 
   - He spends at least an hour every morning polishing the scales on his tail.
+  - Whenever he gets angry or distressed, his surroundings will drop in temperature. 
+powers:
+  - name: Ice magic
+    description: Lianyu inherited the ability to wield ice magic from his ice dragon heritage. His ice magic is extremely powerful, and as such he relies on it as his main form of offence. He can summon projectiles, blades and spears of ice. He can also form weapons out of ice, such as shields or an ice sword for him to fly on. His strongest ability is to summon giant curved blades of ice that resemble a lotus flower, piercing his opponent and entombing them in a frozen cage. 
+  - name: Minor water magic
+    description: Lianyu can also manipulate water to a certain extent, but not particularly well. He always ends up unintentionally freezing it into a solid state.
+  - name: Martial arts
+    description: Lianyu is trained in martial arts and can wield a sword or a spear competently. However, he rarely carries an actual weapon and prefers to form them from ice. He also utilises an ice whip sometimes.
+relationships:
+  - name: Qiu Ye
+    icon: /images/qiuye.png
+    link: /oc-gallery/characters/qiu-ye
+    status: Former captive/ Enemy
+    description: Lianyu once coveted the love and devotion Qiu Ye displayed towards his brother, Jianqing. He hence brainwashed Qiu Ye into thinking they were lovers. However, he has no real love for Qiu Ye and only wanted to possess him because he was precious to Jianqing. He considers Qiu Ye to be a lowly fox spirit who is beneath him. When Qiu Ye repeatedly defies him and rejects his favour, Lianyu doesn’t hesitate to make his life miserable.
 featured:
   - name: Fleeting Dream
     type: game

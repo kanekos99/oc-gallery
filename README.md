@@ -6,9 +6,10 @@ another attempt at making an OC website
 (Because I will forget if I don't keep track of this)
 
 - name
-- id (used to track AUs mostly)
+- id (used to track AUs mostly - diff AUs of the same character should have the same id)
 - image (profile picture)
 - series
+- au (the AU name that is displayed in the AU profile - not required if it is the original version of the character, NA if not an AU like if it is the same character but by a different name)
 - theme (color theme)
 - basic:
   - full name
@@ -42,10 +43,6 @@ another attempt at making an OC website
   - link
   - icon (if not writing)
   - description (if writing)
-- alternatives:
-  - name
-  - link
-  - icon
 - introduction
 - story (and sub-sections)
 

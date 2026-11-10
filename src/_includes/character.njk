@@ -37,7 +37,7 @@
               back
             </a>
             <div class="sidebar-img-container">
-              {% if au %}
+              {% if au and au != 'NA' %}
                 <div class=character-version-label>
                   {{ au }}
                 </div>
@@ -494,8 +494,10 @@
                               <img src="{{ item.data.image | url }}"/>
                             </div>
                             <div class="chara-row-item-title">
-                              {% if item.data.au %}
+                              {% if item.data.au and item.data.au != 'NA' %}
                               <h2>{{ item.data.au }}</h2>
+                              {% elif item.data.au and item.data.au == 'NA' %}
+                              <h2>{{ item.data.name }}</h2>
                               {% else %}
                               <h2>Original</h2>
                               {% endif %}

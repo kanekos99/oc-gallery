@@ -64,6 +64,11 @@ relationships:
     link: /oc-gallery/characters/xue-hua
     status: Frenemy
     description: Qiu Ye sees her as a younger sister and still feels some sense of responsibility towards her. That said, while they were close in the past, he now finds her to be an annoying brat who is a menace to his peaceful new life.
+  - name: Lianyu
+    icon: /images/lianyu.png
+    link: /oc-gallery/characters/lianyu
+    status: Enemy
+    description: Qiu Ye feared him in the past, but now he despises him and wants nothing to do with him anymore.
 featured:
   - name: Fleeting Dream
     type: game
