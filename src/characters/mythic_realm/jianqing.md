@@ -55,7 +55,7 @@ relationships:
   - name: Lianyu
     icon: /images/lianyu.png
     link: /oc-gallery/characters/lianyu
-    status: Brother/ Enemy
+    status: Half-brother/ Enemy
     description: As a child, Jianqing truly respected and admired his older brother. He was thus hurt deeply by Lianyu's betrayal. No matter how much he loved his brother, Jianqing could never forgive him for what he did to his family.
 featured:
   - name: Fleeting Dream

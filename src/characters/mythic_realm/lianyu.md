@@ -32,7 +32,7 @@ relationships:
   - name: Jianqing
     icon: /images/Jianqing.png
     link: /oc-gallery/characters/jianqing
-    status: Brother/ Enemy
+    status: Half-brother/ Enemy
     description: Lianyu shares a complicated relationship with his younger brother, Jianqing. While they were close in their youth, Lianyu eventually came to resent Jianqing, for he would be the one punished for Jianqing's mistakes. He also became intensely jealous of the favour Jianqing received just because he was the son of the Empress, rather than a lowly concubine. Yet deep down, he still cares about Jianqing and is unable to bring himself to get rid of his brother once and for all, as Jianqing is the only family he has left.
   - name: Qiu Ye
     icon: /images/qiuye.png
