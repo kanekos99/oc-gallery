@@ -30,7 +30,7 @@ powers:
     description: Lianyu is trained in martial arts and can wield a sword or a spear competently. However, he rarely carries an actual weapon and prefers to form them from ice. He also utilises an ice whip sometimes.
 relationships:
   - name: Jianqing
-    icon: /images/jianqing.png
+    icon: /images/Jianqing.png
     link: /oc-gallery/characters/jianqing
     status: Brother/ Enemy
     description: Lianyu shares a complicated relationship with his younger brother, Jianqing. While they were close in their youth, Lianyu eventually came to resent Jianqing, for he would be the one punished for Jianqing's mistakes. He also became intensely jealous of the favour Jianqing received just because he was the son of the Empress, rather than a lowly concubine. Yet deep down, he still cares about Jianqing and is unable to bring himself to get rid of his brother once and for all, as Jianqing is the only family he has left.
