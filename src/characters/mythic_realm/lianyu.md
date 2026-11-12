@@ -18,17 +18,22 @@ preview_gallery:
   - https://kanekos99.github.io/art-archive/img/small/lianyu_headshot.png
 trivia:
   - He likes peach tea and lotus flower pastries.
-  - He doesn't like alcohol and is a lightweight, but he still forces himself to drink for formal occasions. 
+  - He doesn't like alcohol and is a lightweight, but he still forces himself to drink for formal occasions.
   - He spends at least an hour every morning polishing the scales on his tail.
-  - Whenever he gets angry or distressed, his surroundings will drop in temperature. 
+  - Whenever he gets angry or distressed, his surroundings will drop in temperature.
 powers:
   - name: Ice magic
-    description: Lianyu inherited the ability to wield ice magic from his ice dragon heritage. His ice magic is extremely powerful, and as such he relies on it as his main form of offence. He can summon projectiles, blades and spears of ice. He can also form weapons out of ice, such as shields or an ice sword for him to fly on. His strongest ability is to summon giant curved blades of ice that resemble a lotus flower, piercing his opponent and entombing them in a frozen cage. 
+    description: Lianyu inherited the ability to wield ice magic from his ice dragon heritage. His ice magic is extremely powerful, and as such he relies on it as his main form of offence. He can summon projectiles, blades and spears of ice. He can also form weapons out of ice, such as shields or an ice sword for him to fly on. His strongest ability is to summon giant curved blades of ice that resemble a lotus flower, piercing his opponent and entombing them in a frozen cage.
   - name: Minor water magic
     description: Lianyu can also manipulate water to a certain extent, but not particularly well. He always ends up unintentionally freezing it into a solid state.
   - name: Martial arts
     description: Lianyu is trained in martial arts and can wield a sword or a spear competently. However, he rarely carries an actual weapon and prefers to form them from ice. He also utilises an ice whip sometimes.
 relationships:
+  - name: Jianqing
+    icon: /images/jianqing.png
+    link: /oc-gallery/characters/jianqing
+    status: Brother/ Enemy
+    description: Lianyu shares a complicated relationship with his younger brother, Jianqing. While they were close in their youth, Lianyu eventually came to resent Jianqing, for he would be the one punished for Jianqing's mistakes. He also became intensely jealous of the favour Jianqing received just because he was the son of the Empress, rather than a lowly concubine. Yet deep down, he still cares about Jianqing and is unable to bring himself to get rid of his brother once and for all, as Jianqing is the only family he has left.
   - name: Qiu Ye
     icon: /images/qiuye.png
     link: /oc-gallery/characters/qiu-ye

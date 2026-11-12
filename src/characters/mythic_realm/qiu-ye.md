@@ -68,7 +68,7 @@ relationships:
     icon: /images/lianyu.png
     link: /oc-gallery/characters/lianyu
     status: Enemy
-    description: Qiu Ye feared him in the past, but now he despises him and wants nothing to do with him anymore.
+    description: Qiu Ye feared him in the past, but now he despises him and wants nothing more to do with him.
 featured:
   - name: Fleeting Dream
     type: game

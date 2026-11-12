@@ -52,6 +52,11 @@ relationships:
     link: /oc-gallery/characters/yuzhen
     status: Loyal bodyguard/ Friend
     description: Jianqing finds Yuzhen to be an upstanding and capable right-hand man, as well as a youth with great potential. Although he considers Yuzhen to be a friend, he also treats him with a strong sense of professionalism, as he doesn't want to make the strait-laced qilin uncomfortable.
+  - name: Lianyu
+    icon: /images/lianyu.png
+    link: /oc-gallery/characters/lianyu
+    status: Brother/ Enemy
+    description: As a child, Jianqing truly respected and admired his older brother. He was thus hurt deeply by Lianyu's betrayal. No matter how much he loved his brother, Jianqing could never forgive him for what he did to his family.
 featured:
   - name: Fleeting Dream
     type: game
